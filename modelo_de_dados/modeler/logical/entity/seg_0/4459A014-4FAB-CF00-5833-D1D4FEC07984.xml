@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4459A014-4FAB-CF00-5833-D1D4FEC07984" name="DEVICE">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:24:24 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEVICE" id="D299BAFA-3302-146D-FDD1-83E9AE89C377">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:24:35 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALIAS" id="B969E7F5-8266-ADF3-73C2-3D9F93D03D49">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:25:10 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLOR" id="3CCD5270-A8B6-6654-793C-875BC62866D3">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:27:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FREQUENCY_UPDATE" id="8473E217-E086-8421-FD6A-DD6C48C47D71">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:27:30 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST_LONGITUDE" id="DA9BF7B1-773D-CBFB-36A2-51005261301F">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:27:41 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST_LATITUDE" id="4068C144-3AC3-B4B9-068C-BAB13BD75E92">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:27:46 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALARM" id="B41949F8-AF1B-CB64-ABAD-A86FD9AE7B5F">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:27:52 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="E7D67B7F-ED02-AB5E-F03F-5F78C6A5FFA7">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:59:25 UTC</createdTime>
+<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="18B56532-BFE3-EDF5-1687-A824F8F5F5E2">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:44:58 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATED_AT" id="A1162402-248F-331F-F300-CC38D865A983">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:45:08 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76225908-3730-DBA0-8CBC-D7C3FF570093" name="DEVICES PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:24:59 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D299BAFA-3302-146D-FDD1-83E9AE89C377</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

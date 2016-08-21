@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACF4B2B5-2A25-9B88-ADD0-DA4615F009FE" name="COMMENT">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>0039DD51-88D1-C892-620C-E62089848B4D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMMENT" id="D93CB4E9-57E0-F8B5-84F9-3DDA67B387B1">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>1E111B16-0420-821F-5461-8D7650FC2933</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="4508ECEB-7438-31AC-56BD-4EBAE83BF6DC">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>FEBC9235-3BF7-1725-9CD1-1811BB589B06</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="C704D8FD-ECC7-B1AC-FB06-0F3978B8F896">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>C67DC61C-58C9-199A-FDB6-2116233F3357</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_AT" id="6501F940-2F29-0CD6-3274-C84F6D968342">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>183FA372-C48F-BC4B-302F-8F7C128783B0</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPROVED_AT" id="6E530BD2-87A6-9341-0885-DC54F141E19F">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>BDEE38AB-0ECD-1009-4AF8-D215A9E6EB82</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELETED_AT" id="2D78B4A1-2E19-6AFB-79BE-E4A28841C4EE">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>3F62A33D-0F4E-60A5-D92A-395DBEE60329</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POST_ID_POST" id="9BD14FDE-E34E-9383-E565-1B6B1A8F51FF">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>FE803719-7A86-1CAC-9498-49529EDF211A</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDCC5411-A88E-6369-1A2E-11F7BAA1B990" referredColumn="26B32362-4C10-D86A-716E-21C95F6704CB"/>
+</associations>
+</Column>
+<Column name="USER_ID_USER" id="C464988D-83AF-08CB-C23C-2DB61D4C510D">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>B5D97FD4-80B5-D6B3-654A-90009842B438</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52DE043E-4067-7AD7-B0FA-2B3E518271BE" referredColumn="80F6D8E2-38ED-26EF-DE25-09F1AF5DFBEE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A623B478-82B0-2048-FB16-05B3CCA2FC97" name="COMMENT_PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>DCADF9A6-6452-6622-2B59-B0F178CB5965</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93CB4E9-57E0-F8B5-84F9-3DDA67B387B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54A031FB-90DA-7C85-0E4D-4765DDA6BC6E" name="COMMENT_POST_FK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BD14FDE-E34E-9383-E565-1B6B1A8F51FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74EF4D47-9DAA-0AE8-5EE5-AAF41C3BC537" name="COMMENT_USER_FK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C464988D-83AF-08CB-C23C-2DB61D4C510D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

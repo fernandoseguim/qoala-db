@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA771C5C-B53D-D60F-11A8-D99B91AF8C3E" name="DEVICE_LOG">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:27:41 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEVICE_LOG" id="97E8AC52-650B-F1B9-920D-5E29C7C3F435">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:27:45 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOG" id="F1FC4676-6B25-E2C9-D01E-132304EABA75">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:27:45 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEVICE" id="1AC00645-0840-65CE-1575-5845F52AACC2">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:29:39 UTC</createdTime>
+<generatorID>0F26043B-8DD6-DDF5-7AE5-14DFFB187C2D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="CD6C8685-0C40-F2B7-2D1E-BAA0BCD14D44">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:43:33 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6407CAE0-8458-B695-BF32-832D73B6A503" name="DEVICE_LOG PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:28:13 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97E8AC52-650B-F1B9-920D-5E29C7C3F435</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

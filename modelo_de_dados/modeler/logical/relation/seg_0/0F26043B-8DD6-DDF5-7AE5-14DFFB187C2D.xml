@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DEVICE_LOG" directorySegmentName="seg_0" id="0F26043B-8DD6-DDF5-7AE5-14DFFB187C2D">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:29:39 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="9062BAC3-0D1A-D7A6-BA8E-51291BBB34E8" value="true"/>
+<item key="3372C2E8-5B71-407E-14E1-850F30084ADA" value="true"/>
+</engineerTo>
+<sourcePk>76225908-3730-DBA0-8CBC-D7C3FF570093</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4459A014-4FAB-CF00-5833-D1D4FEC07984</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA771C5C-B53D-D60F-11A8-D99B91AF8C3E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

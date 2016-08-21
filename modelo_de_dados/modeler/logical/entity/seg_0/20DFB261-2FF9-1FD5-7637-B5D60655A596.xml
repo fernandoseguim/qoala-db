@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20DFB261-2FF9-1FD5-7637-B5D60655A596" name="DEVICE_GEO_LOCATION_LOG">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:25:28 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEVICE_GEO_LOCATION_LOG" id="26D3380F-E00E-CEBA-7301-09CAD6DFD399">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:26:48 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOG" id="96FB6745-923E-07D8-7EE2-BB037188E79E">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:27:06 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEVICE_GEO_LOCATION" id="1FA6BAF8-5759-F5A1-E344-5ABEB41031C1">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:29:17 UTC</createdTime>
+<generatorID>D7D6C934-2B72-71EA-E4AE-3BB188F94025</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>E88900CE-6972-7AED-70C5-D03754472386</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="FCA31185-405A-266E-8E2A-9FC5198593F2">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:44:03 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6664020-4FF7-CB3D-3B48-4904100335E8" name="DEVICE_GEO_LOCATION_LOG PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:27:05 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26D3380F-E00E-CEBA-7301-09CAD6DFD399</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09D6E45C-D767-6F50-B8F3-64698B79F126" name="DEVICE_GEO_LOCATION_LOG">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>20DFB261-2FF9-1FD5-7637-B5D60655A596</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEVICE_GEO_LOCATION_LOG" id="2AFB376D-7D15-EC1E-43F7-29AAD7BA49F3">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>26D3380F-E00E-CEBA-7301-09CAD6DFD399</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOG" id="A47D6316-096F-F1B1-C28A-28DA32DA687A">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>96FB6745-923E-07D8-7EE2-BB037188E79E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICE_GEO_LOCATION_ID_DEVICE_GEO_LOCATION" id="84225412-CFF0-8B28-D07F-5A042322605D">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>1FA6BAF8-5759-F5A1-E344-5ABEB41031C1</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B162BA11-944F-C176-453B-10FB34A767E2" referredColumn="DDEBE844-7D8B-12E2-E3E8-96AE32FF3158"/>
+</associations>
+</Column>
+<Column name="CREATED_AT" id="293D5FF3-7ABE-684D-B96C-6FF559EC3668">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>FCA31185-405A-266E-8E2A-9FC5198593F2</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CFD1832-A389-9503-B971-E7D658790DD8" name="DEVICE_GEO_LOCATION_LOG_PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>F6664020-4FF7-CB3D-3B48-4904100335E8</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AFB376D-7D15-EC1E-43F7-29AAD7BA49F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EAA5859-3392-7232-256E-E86AA00836B5" name="DEVICE_GEO_LOCATION_LOG_DEVICE_GEO_LOCATION_FK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:51:35 UTC</createdTime>
+<generatorID>D7D6C934-2B72-71EA-E4AE-3BB188F94025</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84225412-CFF0-8B28-D07F-5A042322605D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DEVICE_DEVICE_GEO_LOCATIN" directorySegmentName="seg_0" id="8DD3B6B7-09B0-2219-4321-252BE5A90F43">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:23:02 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="361A7FD6-E5A1-4928-F2F9-EEF840BB2DAD" value="true"/>
+</engineerTo>
+<sourcePk>76225908-3730-DBA0-8CBC-D7C3FF570093</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4459A014-4FAB-CF00-5833-D1D4FEC07984</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>133F100D-2CCB-2CA6-B364-018295BA2846</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

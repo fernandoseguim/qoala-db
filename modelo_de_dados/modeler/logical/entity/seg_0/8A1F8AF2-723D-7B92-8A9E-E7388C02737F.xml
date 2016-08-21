@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A1F8AF2-723D-7B92-8A9E-E7388C02737F" name="POST_LOG">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:22:24 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_POST_LOG" id="538CD3F4-5807-036F-2103-DCE1FAC5444C">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:22:31 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOG" id="9DB71CE8-2B79-74FB-4338-CFFDE2F0A2F6">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:22:42 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POST" id="265D6AE8-1853-EDC1-A467-F95DE0D9B59A">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:31:19 UTC</createdTime>
+<generatorID>7B54224A-23B4-59A1-EC92-EC4130E6BC85</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>C1AC0BCE-D8A0-7DF4-A666-1F85F6F68633</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="B648C73B-A1BA-E860-630A-EFA12E1FCAAC">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:39:51 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16DB8594-6FB2-93DE-DA9C-260E8EEA1976" name="POST_LOG PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:22:41 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>538CD3F4-5807-036F-2103-DCE1FAC5444C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

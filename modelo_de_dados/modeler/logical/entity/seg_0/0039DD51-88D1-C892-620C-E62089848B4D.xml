@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENT">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:01:18 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_COMMENT" id="1E111B16-0420-821F-5461-8D7650FC2933">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:31:22 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTENT" id="FEBC9235-3BF7-1725-9CD1-1811BB589B06">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:01:32 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="C67DC61C-58C9-199A-FDB6-2116233F3357">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:02:09 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATED_AT" id="183FA372-C48F-BC4B-302F-8F7C128783B0">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:02:29 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPROVED_AT" id="BDEE38AB-0ECD-1009-4AF8-D215A9E6EB82">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:02:37 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DELETED_AT" id="3F62A33D-0F4E-60A5-D92A-395DBEE60329">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:03:01 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_POST" id="FE803719-7A86-1CAC-9498-49529EDF211A">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:57:24 UTC</createdTime>
+<generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>C1AC0BCE-D8A0-7DF4-A666-1F85F6F68633</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="B5D97FD4-80B5-D6B3-654A-90009842B438">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:57:57 UTC</createdTime>
+<generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCADF9A6-6452-6622-2B59-B0F178CB5965" name="COMMENTS PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:31:28 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E111B16-0420-821F-5461-8D7650FC2933</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

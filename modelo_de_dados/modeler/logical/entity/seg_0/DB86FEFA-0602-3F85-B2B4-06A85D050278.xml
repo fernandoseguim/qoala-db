@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB86FEFA-0602-3F85-B2B4-06A85D050278" name="USER">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>C7CCFA94-9AD9-F5C7-89A7-71A6AD15A3BA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_USER" id="B9AED4AB-0E97-3ED5-77BE-56EA6C92F034">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>46A65F17-C036-1FC5-F1A9-BA05EE671DE4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="4595B826-EEE5-5F6E-0F6F-25D7E6A804A6">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>F7A259A7-901C-88BA-1EDC-93210E5C916D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="86DEA0C5-DDA4-0599-69AE-D7376F3A0269">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:14:35 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="2677350F-2220-DB0A-9706-AD79F67DCC23">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>2C4AD651-548F-6BAA-6439-6A2F6854596B</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PERMISSION" id="7F71B644-E3D4-65D0-1D7B-62B18CEBA8E6">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>5A9FE659-4F9E-AB62-424D-A5064FDABF32</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<constraintName>CK_USER_PERMISSION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<listOfValues>
+<valueDef value="1" description="PUBLIC"/>
+<valueDef value="2" description="EDITOR"/>
+<valueDef value="3" description="ADMIN"/>
+</listOfValues>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="904B852F-D4BE-7624-5035-CE4017B6B7C1">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:15:21 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATED_AT" id="26C98934-2A90-96C4-15F7-5CBF00592AE9">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-18 19:15:37 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5665F9B8-BACA-31F3-BCE5-38D197632A25" name="USERS PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 22:22:48 UTC</createdTime>
+<generatorID>D5ACC96D-8C84-1A41-C22E-FB80AB5EF88C</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

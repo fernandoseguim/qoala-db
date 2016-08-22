@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEVICE_ID_DEVICE" id="6EE78856-ABDD-DE01-0989-2674E3059265">
+<Column name="DEVICE_ID" id="6EE78856-ABDD-DE01-0989-2674E3059265">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>1AC00645-0840-65CE-1575-5845F52AACC2</generatorID>

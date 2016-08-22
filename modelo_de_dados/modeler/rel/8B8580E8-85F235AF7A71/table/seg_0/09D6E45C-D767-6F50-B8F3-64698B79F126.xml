@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEVICE_GEO_LOCATION_ID_DEVICE_GEO_LOCATION" id="84225412-CFF0-8B28-D07F-5A042322605D">
+<Column name="DEVICE_GEO_LOCATION_ID" id="84225412-CFF0-8B28-D07F-5A042322605D">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>1FA6BAF8-5759-F5A1-E344-5ABEB41031C1</generatorID>

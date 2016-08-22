@@ -20,7 +20,7 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_ID_USER" id="62FB07E8-8239-9C57-9BB3-FD553F7B5919">
+<Column name="USER_ID" id="62FB07E8-8239-9C57-9BB3-FD553F7B5919">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>37E3C7CD-D6B9-C85D-53FB-064AC30102D5</generatorID>

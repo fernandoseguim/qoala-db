@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMMENT_ID_COMMENT" id="F97F9383-D66F-C6AA-9910-6C0DD8383A51">
+<Column name="COMMENT_ID" id="F97F9383-D66F-C6AA-9910-6C0DD8383A51">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>D6742BC9-7726-F878-FB53-AC6CA79000C3</generatorID>

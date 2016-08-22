@@ -88,7 +88,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_ID_USER" id="C716C8C0-DB78-9338-4D7E-A93A308B6FA8">
+<Column name="USER_ID" id="C716C8C0-DB78-9338-4D7E-A93A308B6FA8">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>464B5C42-F2A1-EFB1-0B7D-D1437B79CA91</generatorID>

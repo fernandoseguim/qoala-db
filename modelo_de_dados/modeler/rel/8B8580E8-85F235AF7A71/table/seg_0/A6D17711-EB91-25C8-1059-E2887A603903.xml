@@ -96,7 +96,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USER_ID_USER" id="4F7AF5AE-85D4-5A54-D2AB-F0BDA2CC9E02">
+<Column name="USER_ID" id="4F7AF5AE-85D4-5A54-D2AB-F0BDA2CC9E02">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>E7D67B7F-ED02-AB5E-F03F-5F78C6A5FFA7</generatorID>

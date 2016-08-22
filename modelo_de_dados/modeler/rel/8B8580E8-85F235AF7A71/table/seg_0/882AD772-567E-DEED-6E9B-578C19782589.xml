@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="POST_ID_POST" id="62AC20EF-3818-C3D9-C10D-076C29905B2A">
+<Column name="POST_ID" id="62AC20EF-3818-C3D9-C10D-076C29905B2A">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>265D6AE8-1853-EDC1-A467-F95DE0D9B59A</generatorID>

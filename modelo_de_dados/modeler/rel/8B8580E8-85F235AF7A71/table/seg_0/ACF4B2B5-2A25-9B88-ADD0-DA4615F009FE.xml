@@ -76,7 +76,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="POST_ID_POST" id="9BD14FDE-E34E-9383-E565-1B6B1A8F51FF">
+<Column name="POST_ID" id="9BD14FDE-E34E-9383-E565-1B6B1A8F51FF">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>FE803719-7A86-1CAC-9498-49529EDF211A</generatorID>
@@ -91,7 +91,7 @@
 <colAssociation fkAssociation="BDCC5411-A88E-6369-1A2E-11F7BAA1B990" referredColumn="26B32362-4C10-D86A-716E-21C95F6704CB"/>
 </associations>
 </Column>
-<Column name="USER_ID_USER" id="C464988D-83AF-08CB-C23C-2DB61D4C510D">
+<Column name="USER_ID" id="C464988D-83AF-08CB-C23C-2DB61D4C510D">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:51:35 UTC</createdTime>
 <generatorID>B5D97FD4-80B5-D6B3-654A-90009842B438</generatorID>

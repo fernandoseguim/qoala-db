@@ -1,3 +1,7 @@
+-- muda o schema, pois será executado como masterqoala
+-- todas as tabelas deverão ser criadas com owner QOALA
+alter session set current_schema=qoala;
+
 DROP TABLE "COMMENT" CASCADE CONSTRAINTS ;
 
 DROP TABLE COMMENT_LOG CASCADE CONSTRAINTS ;

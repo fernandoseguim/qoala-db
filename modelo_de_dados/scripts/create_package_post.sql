@@ -1,8 +1,9 @@
-CREATE PACKAGE p_post AS
+CREATE OR REPLACE PACKAGE p_post AS
    PROCEDURE insert_post (
      title post.title%TYPE, 
      content post.content%TYPE, 
-     user_id post.user_id%TYPE
+     user_id post.user_id%TYPE,
+     out_id_post out NUMBER
    );
    PROCEDURE publish_post (id post.id_post%TYPE);
    PROCEDURE update_post (
@@ -14,14 +15,15 @@ CREATE PACKAGE p_post AS
    PROCEDURE delete_post (id post.id_post%TYPE);
    PROCEDURE sp_post_log(log post_log.log%TYPE, post_id post_log.post_id%TYPE);
 END p_post;
-
+/
 
 CREATE OR REPLACE PACKAGE BODY p_post AS
-    procedure insert_post(title post.title%TYPE, content post.content%TYPE, user_id post.user_id%TYPE)
+    procedure insert_post(title post.title%TYPE, content post.content%TYPE, user_id post.user_id%TYPE, out_id_post out NUMBER)
     is 
     begin
       insert into post(id_post, title, content, created_at, updated_at, user_id) 
-        values(seq_post.nextval, title, content, SYSDATE, SYSDATE, user_id);
+        values(seq_post.nextval, title, content, SYSDATE, SYSDATE, user_id)
+        returning ID_POST into out_id_post;
     end insert_post;
     
     procedure update_post(id post.id_post%TYPE, title post.title%TYPE, content post.content%TYPE, user_id post.user_id%TYPE)
@@ -61,3 +63,4 @@ CREATE OR REPLACE PACKAGE BODY p_post AS
       update post set published_at = SYSDATE where id_post = id;
     end publish_post;
 END p_post;
+/

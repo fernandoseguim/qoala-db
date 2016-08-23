@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB948A8A-E173-3331-ED8E-5A03A07A5A00" name="DEVICE_LOG">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>BA771C5C-B53D-D60F-11A8-D99B91AF8C3E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOG" id="F0767227-206E-C2DF-3434-E62056EA689D">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>F1FC4676-6B25-E2C9-D01E-132304EABA75</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICE_ID" id="0BD64E69-EF89-101D-D03B-F40DD93C9A42">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>1AC00645-0840-65CE-1575-5845F52AACC2</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="214B9424-67AF-2AC3-F1F9-881E65FED283" referredColumn="932B323E-310A-EFC3-191A-D46BAF74A13C"/>
+</associations>
+</Column>
+<Column name="CREATED_AT" id="84F0B571-F42C-33D2-6588-74490E867B91">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>CD6C8685-0C40-F2B7-2D1E-BAA0BCD14D44</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67B36139-54A1-8532-B922-4DD696C04053" name="DEVICE_LOG_DEVICE_FK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>0F26043B-8DD6-DDF5-7AE5-14DFFB187C2D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD64E69-EF89-101D-D03B-F40DD93C9A42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

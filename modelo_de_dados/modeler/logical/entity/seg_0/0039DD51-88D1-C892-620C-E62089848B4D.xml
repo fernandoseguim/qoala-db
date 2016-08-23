@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENTS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:01:18 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2016-08-17 23:31:22 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2016-08-17 23:01:32 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2016-08-17 23:02:09 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,8 +56,9 @@
 <createdTime>2016-08-17 23:02:29 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -68,7 +69,7 @@
 <createdTime>2016-08-17 23:02:37 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,7 +82,7 @@
 <createdTime>2016-08-17 23:03:01 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,7 +96,7 @@
 <generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <referedAttribute>C1AC0BCE-D8A0-7DF4-A666-1F85F6F68633</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,7 +110,7 @@
 <generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,7 +125,7 @@
 <createdTime>2016-08-17 23:31:28 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

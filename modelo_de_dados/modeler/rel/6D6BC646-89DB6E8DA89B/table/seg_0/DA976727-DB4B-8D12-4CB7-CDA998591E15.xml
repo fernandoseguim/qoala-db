@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA976727-DB4B-8D12-4CB7-CDA998591E15" name="NET_ACCOUNT">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>D0EEE470-4CCA-29BD-5FF3-F9E8F1C76BDD</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCESS_TOKEN_ID" id="A16EC9C1-5207-FCA6-E8C6-B3DED08A8300">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>B6AE7ED3-B19D-9CC4-B9CF-BAFB3F57DF72</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="7DD733A0-FEE7-E067-E14F-6D4A811249A1">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>37E3C7CD-D6B9-C85D-53FB-064AC30102D5</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E60BBDC-1D7F-A7D5-903E-2E63CD343608" referredColumn="93B60051-911B-100A-13FD-F9B3B1258358"/>
+</associations>
+</Column>
+<Column name="IDENTIFIER" id="A50A231D-084A-055A-E001-26117EE5A706">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>DA6CF6B1-BF7B-3C59-0ACC-992D8FB607C4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVIDER" id="3D0A8C16-C0D6-D678-A126-4AEB8863BC2F">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>66F95B20-9F83-B7FC-5697-534D9D418441</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60CCCE94-96B4-8C45-E71C-7BD73D2ACD03" name="NET_ACCOUNT_PK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>9CEAC311-D515-61C2-879A-F063F0D4587A</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16EC9C1-5207-FCA6-E8C6-B3DED08A8300"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDD9723F-B3A3-2572-5712-233F65C52A7A" name="NET_ACCOUNT_USER_FK">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-23 23:19:59 UTC</createdTime>
+<generatorID>6012FFC8-DF61-053D-C214-E40078F5EF7E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DD733A0-FEE7-E067-E14F-6D4A811249A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

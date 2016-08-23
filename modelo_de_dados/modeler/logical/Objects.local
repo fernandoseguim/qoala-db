@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D58B17C0-660F-DAAD-A860-D528D683C1D3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENTS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D58B17C0-660F-DAAD-A860-D528D683C1D3" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="F04ABB52-4A7E-B163-08F5-B537F24FAE6A" name="COMMENT_LOG" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D58B17C0-660F-DAAD-A860-D528D683C1D3" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="4459A014-4FAB-CF00-5833-D1D4FEC07984" name="DEVICE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D58B17C0-660F-DAAD-A860-D528D683C1D3" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="133F100D-2CCB-2CA6-B364-018295BA2846" name="DEVICE_GEO_LOCATION" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="D58B17C0-660F-DAAD-A860-D528D683C1D3" propertySourceId="" propertyTargetId=""/>

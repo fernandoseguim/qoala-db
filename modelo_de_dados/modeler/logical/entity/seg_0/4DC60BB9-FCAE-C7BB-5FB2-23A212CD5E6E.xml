@@ -4,7 +4,7 @@
 <createdTime>2016-08-18 19:18:09 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,24 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_USER_LOG" id="D3A75D12-7B88-C244-8DFB-B95ED56D2781">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:18:20 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="LOG" id="593C6F14-98A2-37E5-3CC6-438C3ADEB281">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:20:21 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +33,7 @@
 <generatorID>C07367B2-8E51-7A26-EAEC-58BBE0F9039C</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +46,7 @@
 <createdTime>2016-08-18 19:48:52 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,18 +54,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5EE02582-7139-91A2-DEAA-7FBDBF812B7D" name="USER_HISTORY PK">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:18:34 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>D3A75D12-7B88-C244-8DFB-B95ED56D2781</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

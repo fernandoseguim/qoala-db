@@ -5,7 +5,7 @@
 <generatorID>C7CCFA94-9AD9-F5C7-89A7-71A6AD15A3BA</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>46A65F17-C036-1FC5-F1A9-BA05EE671DE4</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>F7A259A7-901C-88BA-1EDC-93210E5C916D</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <createdTime>2016-08-18 19:14:35 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,7 +62,7 @@
 <generatorID>2C4AD651-548F-6BAA-6439-6A2F6854596B</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +76,7 @@
 <generatorID>5A9FE659-4F9E-AB62-424D-A5064FDABF32</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <constraintName>CK_USER_PERMISSION</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,7 +95,7 @@
 <createdTime>2016-08-18 19:15:21 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -107,8 +107,9 @@
 <createdTime>2016-08-18 19:15:37 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -122,7 +123,7 @@
 <generatorID>D5ACC96D-8C84-1A41-C22E-FB80AB5EF88C</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
-<item key="69B8E073-4734-22F0-2D0A-4001F5783833" value="true"/>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

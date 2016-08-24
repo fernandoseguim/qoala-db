@@ -27,3 +27,10 @@ CREATE SEQUENCE seq_devices
  INCREMENT BY   1
  NOCACHE
  NOCYCLE;
+/
+drop sequence seq_device_geo_locations;
+CREATE SEQUENCE seq_device_geo_locations
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;

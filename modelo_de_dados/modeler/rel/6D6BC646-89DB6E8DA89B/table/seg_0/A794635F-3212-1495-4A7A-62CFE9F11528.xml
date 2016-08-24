@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A794635F-3212-1495-4A7A-62CFE9F11528" name="COMMENT_LOG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A794635F-3212-1495-4A7A-62CFE9F11528" name="COMMENT_LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>F04ABB52-4A7E-B163-08F5-B537F24FAE6A</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
+<ordsAlias>comment_log</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

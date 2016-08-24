@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8A301AB-F18B-8430-1A2A-B876ACD55DBB" name="DEVICE_GEO_LOCATION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8A301AB-F18B-8430-1A2A-B876ACD55DBB" name="DEVICE_GEO_LOCATIONS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>133F100D-2CCB-2CA6-B364-018295BA2846</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
+<ordsAlias>device_geo_location</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F04ABB52-4A7E-B163-08F5-B537F24FAE6A" name="COMMENT_LOG">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F04ABB52-4A7E-B163-08F5-B537F24FAE6A" name="COMMENT_LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:24:12 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>

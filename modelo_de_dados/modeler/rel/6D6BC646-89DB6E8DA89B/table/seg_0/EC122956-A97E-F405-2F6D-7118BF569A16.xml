@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC122956-A97E-F405-2F6D-7118BF569A16" name="USER_LOG">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC122956-A97E-F405-2F6D-7118BF569A16" name="USER_LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>4DC60BB9-FCAE-C7BB-5FB2-23A212CD5E6E</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
+<ordsAlias>user_log</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

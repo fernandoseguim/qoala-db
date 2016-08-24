@@ -1,5 +1,4 @@
 alter session set current_schema = qoala;
-/
 CREATE OR REPLACE PACKAGE pkg_comment AS
    PROCEDURE insert_comment (
      content in comments.content%TYPE, 
@@ -16,9 +15,8 @@ CREATE OR REPLACE PACKAGE pkg_comment AS
    );
    PROCEDURE approve_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
    PROCEDURE delete_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
-   PROCEDURE sp_comment_log(log in comment_log.log%TYPE, comment_id in comment_log.comments_id%TYPE);
+   PROCEDURE sp_comment_log(log in comment_logs.log%TYPE, comment_id in comment_logs.comments_id%TYPE);
 END pkg_comment;
-
 /
 CREATE OR REPLACE PACKAGE BODY pkg_comment AS 
     procedure insert_comment(
@@ -89,12 +87,12 @@ CREATE OR REPLACE PACKAGE BODY pkg_comment AS
     
     --private
     procedure sp_comment_log(
-        log in comment_log.log%TYPE, 
-        comment_id in comment_log.comments_id%TYPE)
+        log in comment_logs.log%TYPE, 
+        comment_id in comment_logs.comments_id%TYPE)
     is
       pragma autonomous_transaction;
     begin
-      insert into comment_log(log, comments_id, created_at) 
+      insert into comment_logs(log, comments_id, created_at) 
         values (log, comment_id, SYSDATE);
       commit; --deve haver commit em uma transação autonoma
     end sp_comment_log;

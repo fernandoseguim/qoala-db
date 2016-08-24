@@ -1,104 +1,91 @@
 alter session set current_schema = qoala;
 
-
 CREATE OR REPLACE PACKAGE pkg_user AS
    PROCEDURE insert_user(
-     name in user.name%TYPE, 
-     password in user.password%TYPE,
-     email in user.email%TYPE,
-     permission in user.permission%TYPE,
-     out_id_user out user.id_user%TYPE
+     name in users.name%TYPE, 
+     password in users.password%TYPE,
+     email in users.email%TYPE,
+     permission in users.permission%TYPE,
+     out_id_user out users.id_user%TYPE
    );
    PROCEDURE update_user(
-     id in user.id_user%TYPE,
-     name in user.name%TYPE, 
-     password in user.passoword%TYPE,
-     email in user.email%TYPE,
-     permission in user.permission%TYPE,
+     id in users.id_user%TYPE,
+     name in users.name%TYPE, 
+     password in users.password%TYPE,
+     email in users.email%TYPE,
+     permission in users.permission%TYPE,
      rowcount out NUMBER
    );
-   PROCEDURE delete_user(id in user.id_user%TYPE, rowcount out NUMBER);
-   PROCEDURE sp_user_log(log in user_log.log%TYPE, user_id in user_log.user_id%TYPE);
+   PROCEDURE delete_user(id in users.id_user%TYPE, rowcount out NUMBER);
+   PROCEDURE sp_user_log(log in user_logs.log%TYPE, user_id in user_logs.user_id%TYPE);
 END pkg_user;
-
 /
-CREATE OR REPLACE PACKAGE BODY pkg_comment AS 
-    procedure insert_comment(
-        content in user.content%TYPE, 
-        user_id in user.user_id%TYPE, 
-        post_id in user.post_id%TYPE, 
-        out_id_comment out user.ID_comment%TYPE)
+
+CREATE OR REPLACE PACKAGE BODY pkg_user AS 
+    procedure insert_user(
+        name in users.name%TYPE, 
+        password in users.password%TYPE, 
+        email in users.email%TYPE, 
+        permission in users.permission%TYPE, 
+        out_id_user out users.ID_user%TYPE)
     is 
     begin
       begin
-        insert into comments(id_comment, content, created_at, user_id, post_id) 
-          values(seq_comment.nextval, content, SYSDATE, user_id, post_id)
-          returning ID_COMMENT into out_id_comment;
-          sp_comment_log('insert_comment: OK! ' || content, out_id_comment);
+        insert into users(id_user, name, password, email, created_at) 
+          values(seq_user.nextval, name, password, email, SYSDATE)
+          returning ID_USER into out_id_user;
+          sp_user_log('insert_user: OK! ' || email, out_id_user);
       exception when others then
-        sp_comment_log('insert_comment error: ' || sqlerrm, out_id_comment);
+        sp_user_log('insert_user error: ' || sqlerrm, out_id_user);
       end;
-    end insert_comment;
+    end insert_user;
     
-    procedure update_comment(
-        id in user.id_comment%TYPE, 
-        content in user.content%TYPE, 
-        user_id in user.user_id%TYPE, 
-        post_id in user.post_id%TYPE,
+    procedure update_user(
+        id in users.id_user%TYPE, 
+        name in users.name%TYPE, 
+        password in users.password%TYPE, 
+        email in users.email%TYPE, 
+        permission in users.permission%TYPE, 
         rowcount out NUMBER)
     is 
     begin
       begin
-        update comments 
-          set content = content, post_id = post_id, updated_at = SYSDATE, user_id = user_id 
-          where id_comment = id;
+        update users 
+          set name = name, password = password, email = email, permission = permission, updated_at = SYSDATE
+          where id_user = id;
         rowcount := sql%ROWCOUNT;
         if rowcount > 0 then
-          sp_comment_log('Comment updated', id);
+          sp_user_log('User updated', id);
         end if;
       exception when others then
-        sp_comment_log('update_comment error: ' || sqlerrm, id);  
+        sp_user_log('update_user error: ' || sqlerrm, id);  
       end;
-    end update_comment;
+    end update_user;
 
-    procedure delete_comment(id in user.id_comment%TYPE, rowcount out NUMBER)
+    procedure delete_user(id in users.id_user%TYPE, rowcount out NUMBER)
     is 
     begin
       begin
-        update comments set deleted_at = SYSDATE where id_comment = id;
+        update users set deleted_at = SYSDATE where id_user = id;
         rowcount := sql%ROWCOUNT;
         if rowcount > 0 then
-          sp_comment_log('Comment deleted', id);
+          sp_user_log('User deleted', id);
         end if;
       exception when others then
-        sp_comment_log('delete_comment error: ' || sqlerrm, id);  
+        sp_user_log('delete_user error: ' || sqlerrm, id);  
       end;
-    end delete_comment;
+    end delete_user;
      
-    procedure approve_comment(id in user.id_comment%TYPE, rowcount out NUMBER)
-    is
-    begin
-       begin
-        update comments set approved_at = SYSDATE where id_comment = id;
-        rowcount := sql%ROWCOUNT;
-        if rowcount > 0 then
-          sp_comment_log('Comment Approved', id);
-        end if;
-      exception when others then
-        sp_comment_log('approve_comment error: ' || sqlerrm, id);  
-      end;
-    end approve_comment;
-    
     --private
-    procedure sp_comment_log(
-        log in comment_log.log%TYPE, 
-        comment_id in comment_log.comments_id%TYPE)
+    procedure sp_user_log(
+        log in user_logs.log%TYPE, 
+        user_id in user_logs.user_id%TYPE)
     is
       pragma autonomous_transaction;
     begin
-      insert into comment_log(log, comments_id, created_at) 
-        values (log, comment_id, SYSDATE);
+      insert into user_logs(log, user_id, created_at) 
+        values (log, user_id, SYSDATE);
       commit; --deve haver commit em uma transação autonoma
-    end sp_comment_log;
+    end sp_user_log;
     
-END pkg_comment;
+END pkg_user;

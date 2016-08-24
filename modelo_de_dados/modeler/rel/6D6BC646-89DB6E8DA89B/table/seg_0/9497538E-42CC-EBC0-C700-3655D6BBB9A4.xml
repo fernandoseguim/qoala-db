@@ -135,6 +135,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DELETED_AT" id="DF4C07D8-85CD-8910-4D8B-024123406DC0">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-24 21:13:21 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AF684F9E-C945-BD9A-CF9A-ED61DFB0A7CB" name="DEVICE_PK">
@@ -149,7 +160,7 @@
 <colUsage columnID="932B323E-310A-EFC3-191A-D46BAF74A13C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="77035C33-92EC-B7AB-ED59-E16A641F7D7B" name="DEVICE_USER_FK">
+<ind_PK_UK id="77035C33-92EC-B7AB-ED59-E16A641F7D7B" name="DEVICES_USER_FK">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>

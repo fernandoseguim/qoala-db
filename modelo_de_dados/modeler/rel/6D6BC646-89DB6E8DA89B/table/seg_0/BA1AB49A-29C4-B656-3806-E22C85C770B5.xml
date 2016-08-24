@@ -48,7 +48,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3E454B7F-7E50-4653-4EDA-3D53AEAEEDB3" name="DEVICE_GEO_LOCATION_LOG_DEVICE_GEO_LOCATION_FK">
+<ind_PK_UK id="3E454B7F-7E50-4653-4EDA-3D53AEAEEDB3" name="DEVICES_GEO_LOCATION_FK">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>D7D6C934-2B72-71EA-E4AE-3BB188F94025</generatorID>

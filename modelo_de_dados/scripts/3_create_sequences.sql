@@ -21,8 +21,8 @@ CREATE SEQUENCE seq_users
  NOCACHE
  NOCYCLE;
 /
-drop sequence seq_net_accounts;
-CREATE SEQUENCE seq_net_accounts
+drop sequence seq_devices;
+CREATE SEQUENCE seq_devices
  START WITH     1
  INCREMENT BY   1
  NOCACHE

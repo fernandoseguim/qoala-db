@@ -1,6 +1,7 @@
-alter session set current_schema = qoala;
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
 
-/
 CREATE OR REPLACE PACKAGE pkg_post AS
    PROCEDURE insert_post (
      title in posts.title%TYPE, 
@@ -17,11 +18,23 @@ CREATE OR REPLACE PACKAGE pkg_post AS
    );
    PROCEDURE publish_post (id in posts.id_post%TYPE, rowcount out NUMBER);
    PROCEDURE delete_post (id in posts.id_post%TYPE, rowcount out NUMBER);
-   PROCEDURE sp_post_log(log in post_logs.log%TYPE, post_id in post_logs.post_id%TYPE);
 END pkg_post;
+/
+show errors
 /
 
 CREATE OR REPLACE PACKAGE BODY pkg_post AS
+    --private
+    procedure sp_post_log(
+        log in post_logs.log%TYPE, 
+        post_id in post_logs.post_id%TYPE)
+    is
+      pragma autonomous_transaction;
+    begin
+      insert into post_logs(log, post_id, created_at) 
+        values (log, post_id, SYSDATE);
+      commit; --deve haver commit em uma transação autonoma
+    end sp_post_log;
     
     procedure insert_post(
         title in posts.title%TYPE, 
@@ -90,17 +103,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_post AS
       end;
     end publish_post;
     
-    --private
-    procedure sp_post_log(
-        log in post_logs.log%TYPE, 
-        post_id in post_logs.post_id%TYPE)
-    is
-      pragma autonomous_transaction;
-    begin
-      insert into post_logs(log, post_id, created_at) 
-        values (log, post_id, SYSDATE);
-      commit; --deve haver commit em uma transação autonoma
-    end sp_post_log;
-    
 END pkg_post;
+/
+show errors
 /

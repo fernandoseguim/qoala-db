@@ -1,4 +1,7 @@
-alter session set current_schema = qoala;
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
+
 CREATE OR REPLACE PACKAGE pkg_comment AS
    PROCEDURE insert_comment (
      content in comments.content%TYPE, 
@@ -15,10 +18,24 @@ CREATE OR REPLACE PACKAGE pkg_comment AS
    );
    PROCEDURE approve_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
    PROCEDURE delete_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
-   PROCEDURE sp_comment_log(log in comment_logs.log%TYPE, comment_id in comment_logs.comments_id%TYPE);
 END pkg_comment;
 /
+show errors
+/
+
 CREATE OR REPLACE PACKAGE BODY pkg_comment AS 
+   --private
+    procedure sp_comment_log(
+        log in comment_logs.log%TYPE, 
+        comment_id in comment_logs.comments_id%TYPE)
+    is
+      pragma autonomous_transaction;
+    begin
+      insert into comment_logs(log, comments_id, created_at) 
+        values (log, comment_id, SYSDATE);
+      commit; --deve haver commit em uma transação autonoma
+    end sp_comment_log;
+    
     procedure insert_comment(
         content in comments.content%TYPE, 
         user_id in comments.user_id%TYPE, 
@@ -28,7 +45,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_comment AS
     begin
       begin
         insert into comments(id_comment, content, created_at, user_id, post_id) 
-          values(seq_comment.nextval, content, SYSDATE, user_id, post_id)
+          values(seq_comments.nextval, content, SYSDATE, user_id, post_id)
           returning ID_COMMENT into out_id_comment;
           sp_comment_log('insert_comment: OK! ' || content, out_id_comment);
       exception when others then
@@ -85,16 +102,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_comment AS
       end;
     end approve_comment;
     
-    --private
-    procedure sp_comment_log(
-        log in comment_logs.log%TYPE, 
-        comment_id in comment_logs.comments_id%TYPE)
-    is
-      pragma autonomous_transaction;
-    begin
-      insert into comment_logs(log, comments_id, created_at) 
-        values (log, comment_id, SYSDATE);
-      commit; --deve haver commit em uma transação autonoma
-    end sp_comment_log;
-    
 END pkg_comment;
+/
+show errors
+/

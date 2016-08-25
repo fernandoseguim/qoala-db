@@ -1,4 +1,6 @@
-alter session set current_schema = qoala;
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
 
 drop sequence seq_posts;
 CREATE SEQUENCE seq_posts

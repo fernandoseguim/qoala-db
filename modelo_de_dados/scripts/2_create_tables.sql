@@ -1,6 +1,8 @@
 -- muda o schema, pois será executado como masterqoala
 -- todas as tabelas deverão ser criadas com owner QOALA
-alter session set current_schema=qoala;
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
 
 DROP
   TABLE COMMENTS CASCADE CONSTRAINTS ;
@@ -149,10 +151,10 @@ CREATE
     EMAIL      VARCHAR2 (255) NOT NULL ,
     PERMISSION INTEGER DEFAULT 1 NOT NULL ,
     CREATED_AT DATE NOT NULL ,
-    UPDATED_AT DATE
+    UPDATED_AT DATE,
+    DELETED_AT DATE
   ) ;
-ALTER TABLE USERS ADD CONSTRAINT CK_USER_PERMISSION CHECK ( PERMISSION IN (1, 2
-, 3)) ;
+ALTER TABLE USERS ADD CONSTRAINT CK_USER_PERMISSION CHECK ( PERMISSION IN (1, 2, 3)) ;
 ALTER TABLE USERS ADD CONSTRAINT USER_PK PRIMARY KEY ( ID_USER ) ;
 
 

@@ -50,6 +50,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_user AS
         insert into users(id_user, name, password, email, created_at) 
           values(seq_users.nextval, name, password, email, SYSDATE)
           returning ID_USER into out_id_user;
+          commit;
           sp_user_log('insert_user: OK! ' || email, out_id_user);
       exception when others then
         sp_user_log('insert_user error: ' || sqlerrm, out_id_user);

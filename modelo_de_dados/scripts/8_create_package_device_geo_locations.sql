@@ -1,3 +1,7 @@
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
+
 CREATE OR REPLACE PACKAGE pkg_device_geo_location AS
    PROCEDURE insert_device_geo_location(
      device_id in device_geo_locations.device_id%TYPE, 
@@ -12,8 +16,22 @@ CREATE OR REPLACE PACKAGE pkg_device_geo_location AS
   );
 END pkg_device_geo_location;
 /
+show errors
+/
 
 CREATE OR REPLACE PACKAGE BODY pkg_device_geo_location AS 
+    --private
+    procedure sp_device_geo_location_log(
+        log in device_geo_location_logs.log%TYPE, 
+        device_geo_location_id in device_geo_location_logs.device_geo_location_id%TYPE)
+    is
+      pragma autonomous_transaction;
+    begin
+      insert into device_geo_location_logs(log, device_geo_location_id, created_at) 
+        values (log, device_geo_location_id, SYSDATE);
+      commit; --deve haver commit em uma transação autonoma
+    end sp_device_geo_location_log;
+
     procedure insert_device_geo_location(
      device_id in device_geo_locations.device_id%TYPE, 
      verified_at in device_geo_locations.verified_at%TYPE,
@@ -32,16 +50,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_device_geo_location AS
       end;
     end insert_device_geo_location;
     
-    --private
-    procedure sp_device_geo_location_log(
-        log in device_geo_location_logs.log%TYPE, 
-        device_geo_location_id in device_geo_location_logs.device_geo_location_id%TYPE)
-    is
-      pragma autonomous_transaction;
-    begin
-      insert into device_geo_location_logs(log, device_geo_location_id, created_at) 
-        values (log, device_geo_location_id, SYSDATE);
-      commit; --deve haver commit em uma transação autonoma
-    end sp_device_geo_location_log;
-    
 END pkg_device_geo_location;
+/
+show errors
+/

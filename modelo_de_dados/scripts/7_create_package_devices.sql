@@ -1,4 +1,6 @@
-alter session set current_schema=qoala;
+clear screen
+set serveroutput on
+alter session set current_schema=QOALA;
 
 CREATE OR REPLACE PACKAGE pkg_device AS
    PROCEDURE insert_device(
@@ -28,11 +30,23 @@ CREATE OR REPLACE PACKAGE pkg_device AS
       rowcount out NUMBER
     );
    PROCEDURE delete_device(id in devices.id_device%TYPE, rowcount out NUMBER);
-   PROCEDURE sp_device_log(log in device_logs.log%TYPE, device_id in device_logs.device_id%TYPE);
 END pkg_device;
 /
+show errors
+/
 
-CREATE OR REPLACE PACKAGE BODY pkg_device AS 
+CREATE OR REPLACE PACKAGE BODY pkg_device AS
+    --private
+    procedure sp_device_log(
+        log in device_logs.log%TYPE, 
+        device_id in device_logs.device_id%TYPE)
+    is
+      pragma autonomous_transaction;
+    begin
+      insert into device_logs(log, device_id, created_at) 
+        values (log, device_id, SYSDATE);
+      commit; --deve haver commit em uma transação autonoma
+    end sp_device_log;
     PROCEDURE insert_device(
     alias in devices.alias%TYPE, 
      color in devices.color%TYPE,
@@ -131,16 +145,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_device AS
       end;
     end update_last_location;
     
-    --private
-    procedure sp_device_log(
-        log in device_logs.log%TYPE, 
-        device_id in device_logs.device_id%TYPE)
-    is
-      pragma autonomous_transaction;
-    begin
-      insert into device_logs(log, device_id, created_at) 
-        values (log, device_id, SYSDATE);
-      commit; --deve haver commit em uma transação autonoma
-    end sp_device_log;
-    
 END pkg_device;
+/
+show errors
+/

@@ -110,9 +110,9 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="464B5C42-F2A1-EFB1-0B7D-D1437B79CA91">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:35:39 UTC</createdTime>
+<Attribute name="ID_USER" id="C6AD6FC9-1727-6211-1E2A-BBF2BA26A9D0">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-25 01:41:25 UTC</createdTime>
 <generatorID>0F2BD66E-F46F-DCD8-8FAA-9FB34EA71F74</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>

@@ -115,6 +115,19 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DELETED_AT" id="8DBE692E-979E-1F1B-10F6-01C122AC67C1">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-25 01:40:20 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5665F9B8-BACA-31F3-BCE5-38D197632A25" name="USERS PK">
@@ -126,6 +139,7 @@
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</newElementsIDs>
 <usedAttributes>
 <attributeRef>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</attributeRef>
 </usedAttributes>

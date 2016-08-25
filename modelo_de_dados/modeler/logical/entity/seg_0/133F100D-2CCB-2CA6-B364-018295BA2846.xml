@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="133F100D-2CCB-2CA6-B364-018295BA2846" name="DEVICE_GEO_LOCATIONS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0EEE470-4CCA-29BD-5FF3-F9E8F1C76BDD" name="NET_ACCOUNTS">
 <createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:11:01 UTC</createdTime>
+<createdTime>2016-08-17 23:38:45 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -15,84 +15,72 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_DEVICE_GEO_LOCATION" id="E88900CE-6972-7AED-70C5-D03754472386">
+<Attribute name="ACCESS_TOKEN_ID" id="B6AE7ED3-B19D-9CC4-B9CF-BAFB3F57DF72">
 <createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:29:58 UTC</createdTime>
+<createdTime>2016-08-17 23:39:07 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDENTIFIER" id="DA6CF6B1-BF7B-3C59-0ACC-992D8FB607C4">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:39:51 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVIDER" id="66F95B20-9F83-B7FC-5697-534D9D418441">
+<createdBy>rm71058</createdBy>
+<createdTime>2016-08-17 23:41:48 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="167D7D1A-48E5-2D4A-51C6-21B09251093A">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-25 01:41:25 UTC</createdTime>
+<generatorID>6012FFC8-DF61-053D-C214-E40078F5EF7E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_DEVICE" id="FA04A0B4-976B-FAB0-B8BB-A756812D398E">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:23:02 UTC</createdTime>
-<generatorID>8DD3B6B7-09B0-2219-4321-252BE5A90F43</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VERIFIED_AT" id="D417BDD6-2E0C-3613-EA52-8D879D91CB43">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:11:11 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="LATITUDE" id="E26E4B4F-27DF-4516-8EF6-F9D44DAFD8DF">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:11:37 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
-</Attribute>
-<Attribute name="LONGITUDE" id="6BB5C8DF-592A-FEBB-01BE-E0F76683E38F">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:11:53 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4FCE302C-E620-E4B8-09E5-5F458A4AD463" name="DEVICE_GEO_LOCATIN PK">
+<identifier id="9CEAC311-D515-61C2-879A-F063F0D4587A" name="NET_ACCOUNT PK">
 <createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:12:01 UTC</createdTime>
+<createdTime>2016-08-17 23:43:01 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E88900CE-6972-7AED-70C5-D03754472386</attributeRef>
+<attributeRef>B6AE7ED3-B19D-9CC4-B9CF-BAFB3F57DF72</attributeRef>
+<attributeRef>167D7D1A-48E5-2D4A-51C6-21B09251093A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

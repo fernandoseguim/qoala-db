@@ -110,20 +110,6 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="E7D67B7F-ED02-AB5E-F03F-5F78C6A5FFA7">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:59:25 UTC</createdTime>
-<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="CREATED_AT" id="18B56532-BFE3-EDF5-1687-A824F8F5F5E2">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:44:58 UTC</createdTime>
@@ -147,6 +133,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USER" id="D6DD9D42-3F18-DB49-112A-592C21F1F644">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-25 01:41:25 UTC</createdTime>
+<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DELETED_AT" id="E33866A2-9327-7319-691D-6727D4AD975D">

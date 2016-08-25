@@ -97,6 +97,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DELETED_AT" id="AFE773FC-4EC3-228E-110A-3BCB13956E3E">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-25 01:39:01 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D922D827-F23F-618D-9815-D08CE70AC611" name="USER_PK">

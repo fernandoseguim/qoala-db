@@ -54,7 +54,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="167D7D1A-48E5-2D4A-51C6-21B09251093A">
+<Attribute name="ID USER" id="167D7D1A-48E5-2D4A-51C6-21B09251093A">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-25 01:41:25 UTC</createdTime>
 <generatorID>6012FFC8-DF61-053D-C214-E40078F5EF7E</generatorID>

@@ -29,11 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="214B9424-67AF-2AC3-F1F9-881E65FED283" referredColumn="932B323E-310A-EFC3-191A-D46BAF74A13C"/>
-</associations>
 </Column>
 <Column name="CREATED_AT" id="84F0B571-F42C-33D2-6588-74490E867B91">
 <createdBy>rm71058</createdBy>
@@ -47,17 +43,4 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
-<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="67B36139-54A1-8532-B922-4DD696C04053" name="DEVICE_LOG_DEVICE_FK">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-23 23:19:59 UTC</createdTime>
-<generatorID>0F26043B-8DD6-DDF5-7AE5-14DFFB187C2D</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0BD64E69-EF89-101D-D03B-F40DD93C9A42"/>
-</indexColumnUsage>
-</ind_PK_UK>
-</indexes>
 </Table>

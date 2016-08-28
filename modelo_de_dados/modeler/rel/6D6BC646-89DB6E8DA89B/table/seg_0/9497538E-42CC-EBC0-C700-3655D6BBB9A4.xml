@@ -63,11 +63,12 @@
 <ownerDesignName>modeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LAST_LATITUDE" id="0EDD2D80-92AC-59A2-44E2-0E942BAE2503">
@@ -77,11 +78,12 @@
 <ownerDesignName>modeler</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ALARM" id="F1A095FE-4139-1AEA-9EF1-878CF06F94A6">
@@ -92,9 +94,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="USER_ID" id="B1FEC0D7-AED4-2B2B-0B21-C34071E93A80">

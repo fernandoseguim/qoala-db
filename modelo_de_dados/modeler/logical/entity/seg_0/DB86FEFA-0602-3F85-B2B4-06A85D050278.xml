@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_USER" id="B9AED4AB-0E97-3ED5-77BE-56EA6C92F034">
+<Attribute name="ID USER" id="B9AED4AB-0E97-3ED5-77BE-56EA6C92F034">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 22:22:48 UTC</createdTime>
 <generatorID>46A65F17-C036-1FC5-F1A9-BA05EE671DE4</generatorID>
@@ -90,7 +90,7 @@
 <defaultValue>1</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED_AT" id="904B852F-D4BE-7624-5035-CE4017B6B7C1">
+<Attribute name="CREATED AT" id="904B852F-D4BE-7624-5035-CE4017B6B7C1">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:15:21 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -102,7 +102,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATED_AT" id="26C98934-2A90-96C4-15F7-5CBF00592AE9">
+<Attribute name="UPDATED AT" id="26C98934-2A90-96C4-15F7-5CBF00592AE9">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:15:37 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -128,9 +128,23 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DELETED AT" id="44AB9083-F66C-FBE9-3D5B-CEF0F210047E">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>AFE773FC-4EC3-228E-110A-3BCB13956E3E</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="5665F9B8-BACA-31F3-BCE5-38D197632A25" name="USERS PK">
+<identifier id="5665F9B8-BACA-31F3-BCE5-38D197632A25" name="USER_PK">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 22:22:48 UTC</createdTime>
 <generatorID>D5ACC96D-8C84-1A41-C22E-FB80AB5EF88C</generatorID>

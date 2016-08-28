@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_DEVICE" id="D299BAFA-3302-146D-FDD1-83E9AE89C377">
+<Attribute name="ID DEVICE" id="D299BAFA-3302-146D-FDD1-83E9AE89C377">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 22:24:35 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FREQUENCY_UPDATE" id="8473E217-E086-8421-FD6A-DD6C48C47D71">
+<Attribute name="FREQUENCY UPDATE" id="8473E217-E086-8421-FD6A-DD6C48C47D71">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:27:30 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -66,7 +66,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST_LONGITUDE" id="DA9BF7B1-773D-CBFB-36A2-51005261301F">
+<Attribute name="LAST LONGITUDE" id="DA9BF7B1-773D-CBFB-36A2-51005261301F">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:27:41 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -75,13 +75,14 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
 <ownDataTypeParameters>,9,7</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST_LATITUDE" id="4068C144-3AC3-B4B9-068C-BAB13BD75E92">
+<Attribute name="LAST LATITUDE" id="4068C144-3AC3-B4B9-068C-BAB13BD75E92">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:27:46 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -90,7 +91,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
@@ -99,6 +101,7 @@
 <Attribute name="ALARM" id="B41949F8-AF1B-CB64-ABAD-A86FD9AE7B5F">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:27:52 UTC</createdTime>
+<comment>0 - sem alarme&lt;br/&gt;1 - Ativar Alarme Sonoro</comment>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -106,11 +109,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED_AT" id="18B56532-BFE3-EDF5-1687-A824F8F5F5E2">
+<Attribute name="CREATED AT" id="18B56532-BFE3-EDF5-1687-A824F8F5F5E2">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:44:58 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -122,7 +125,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATED_AT" id="A1162402-248F-331F-F300-CC38D865A983">
+<Attribute name="UPDATED AT" id="A1162402-248F-331F-F300-CC38D865A983">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:45:08 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -135,7 +138,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="D6DD9D42-3F18-DB49-112A-592C21F1F644">
+<Attribute name="ID USER" id="D6DD9D42-3F18-DB49-112A-592C21F1F644">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-25 01:41:25 UTC</createdTime>
 <generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
@@ -162,9 +165,37 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="USER ID" id="C5A9DCEF-AB94-0E98-FAFF-45755A157792">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DELETED AT" id="D1552A77-449D-DCE7-4711-F3B5FFC085AF">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>DF4C07D8-85CD-8910-4D8B-024123406DC0</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="76225908-3730-DBA0-8CBC-D7C3FF570093" name="DEVICES PK">
+<identifier id="76225908-3730-DBA0-8CBC-D7C3FF570093" name="DEVICE_PK">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 22:24:59 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>

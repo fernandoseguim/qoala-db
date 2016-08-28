@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POSTS" directorySegmentName="seg_0" id="837E4699-F74D-4702-47E8-4010CD90B288">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTENT" id="1CC3E03C-64B9-A526-D7F3-CFA4D6C1B823">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="1E8060FC-6E40-DD3D-D403-12A69E6D1607">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_POST" id="32995F7D-8EED-84BF-BF40-2A0A95579FA6">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHED_AT" id="4E50F1F8-C28C-4881-5D1B-203FB8702CA5">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_AT" id="5EF62F91-50A2-746B-1AC2-2CBF42012EAF">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="91E0BB33-A305-53A0-00A6-5666AFFEC69B">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_AT" id="EF661CB2-6F80-6DBF-1EEC-E65A33EA44D2">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DELETED_AT" id="FAC1A919-23B7-C30F-F445-08B95B9307E3">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="POST_USER_FK" id="423E1CFD-AB79-AEB7-7FD1-3835B0D4A102">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POST_PK" id="EBF6F971-412E-E88C-CD11-C09E9D02B371">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

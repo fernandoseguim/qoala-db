@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA771C5C-B53D-D60F-11A8-D99B91AF8C3E" name="DEVICE_LOGS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA771C5C-B53D-D60F-11A8-D99B91AF8C3E" name="DEVICE LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:27:41 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -27,21 +27,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_DEVICE" id="1AC00645-0840-65CE-1575-5845F52AACC2">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:29:39 UTC</createdTime>
-<generatorID>0F26043B-8DD6-DDF5-7AE5-14DFFB187C2D</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATED_AT" id="CD6C8685-0C40-F2B7-2D1E-BAA0BCD14D44">
+<Attribute name="CREATED AT" id="CD6C8685-0C40-F2B7-2D1E-BAA0BCD14D44">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:43:33 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -51,6 +37,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEVICE ID" id="10E48323-B11B-E234-CBEE-26004047CB02">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:14:22 UTC</createdTime>
+<generatorID>0BD64E69-EF89-101D-D03B-F40DD93C9A42</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

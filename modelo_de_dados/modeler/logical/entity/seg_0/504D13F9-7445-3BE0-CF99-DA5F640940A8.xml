@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="504D13F9-7445-3BE0-CF99-DA5F640940A8" name="DEVICE GEO LOCATIONS">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>B8A301AB-F18B-8430-1A2A-B876ACD55DBB</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID DEVICE GEO LOCATION" id="836A9A03-CD41-D0BD-861D-4C3CD8C4CE1C">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>727D9DB8-4175-791E-5DBF-60D593F314A4</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEVICE ID" id="71DA569E-A8DA-1CE5-29F0-7B8D14DB7CB2">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>6036FCD5-C591-F163-C729-65A934133F9B</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VERIFIED AT" id="81F6D129-4F87-F1A6-4B69-7E3AF8908F12">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>00DD8CBF-B230-5764-09B7-F13862655C69</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LATITUDE" id="BF41FDD8-62EF-2EF2-B3A5-925F7DEF068E">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>C3B276DF-EFC2-B7DC-FD05-C8F27640A61D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LONGITUDE" id="C6541812-6B08-3DE0-BB0F-2C4583C79D3E">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>08BF6323-7520-9596-0496-F7A4162B720D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C15A3706-25EB-9E16-5BB7-9E015C27D9C7" name="DEVICE GEO LOCATION PK">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>3A986A17-7114-F27A-ADB4-CC7E07F4AECA</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>836A9A03-CD41-D0BD-861D-4C3CD8C4CE1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DC60BB9-FCAE-C7BB-5FB2-23A212CD5E6E" name="USER_LOGS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DC60BB9-FCAE-C7BB-5FB2-23A212CD5E6E" name="USER LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:18:09 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED_AT" id="61DE1487-50CA-AFE3-CA50-98B1E4125200">
+<Attribute name="CREATED AT" id="61DE1487-50CA-AFE3-CA50-98B1E4125200">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:48:52 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -39,15 +39,14 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="9DA44CC4-DEC2-F87D-E6D5-6577BD4141B2">
+<Attribute name="USER ID" id="F0C8896C-9520-CCF2-19B3-418DED0B6EA8">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-25 01:41:25 UTC</createdTime>
-<generatorID>C07367B2-8E51-7A26-EAEC-58BBE0F9039C</generatorID>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<generatorID>2BB146B9-8CA1-8A74-60EE-9E4620CD93AD</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
-<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

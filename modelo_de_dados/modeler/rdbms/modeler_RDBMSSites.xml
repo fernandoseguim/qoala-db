@@ -1,2 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<metadatadoc version="2.0"/>
+<metadatadoc version="2.0">
+   <site name="AWS" type="11" oid="492241FC-5CDD-A093-9A2A-A5CD3ED0A270" pathid="14"/>
+   <site name="AWS QOALA" type="11" oid="EAD1DE17-CC2C-091A-F290-1D4BB33F01A3" pathid="15"/>
+</metadatadoc>

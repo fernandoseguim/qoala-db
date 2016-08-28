@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A1F8AF2-723D-7B92-8A9E-E7388C02737F" name="POST_LOGS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A1F8AF2-723D-7B92-8A9E-E7388C02737F" name="POST LOGS">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:22:24 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -27,21 +27,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_POST" id="265D6AE8-1853-EDC1-A467-F95DE0D9B59A">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:31:19 UTC</createdTime>
-<generatorID>7B54224A-23B4-59A1-EC92-EC4130E6BC85</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>C1AC0BCE-D8A0-7DF4-A666-1F85F6F68633</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CREATED_AT" id="B648C73B-A1BA-E860-630A-EFA12E1FCAAC">
+<Attribute name="CREATED AT" id="B648C73B-A1BA-E860-630A-EFA12E1FCAAC">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-18 19:39:51 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -51,6 +37,19 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POST ID" id="B2BD2A0A-16D1-B884-C12C-5FED39686FC5">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:14:22 UTC</createdTime>
+<generatorID>1BD0ABCC-E752-2DE8-53EC-0A65351DACD9</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

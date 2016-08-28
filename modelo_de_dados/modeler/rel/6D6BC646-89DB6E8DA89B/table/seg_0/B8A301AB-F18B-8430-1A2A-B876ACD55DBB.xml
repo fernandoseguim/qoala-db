@@ -52,11 +52,12 @@
 <generatorID>E26E4B4F-27DF-4516-8EF6-F9D44DAFD8DF</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="LONGITUDE" id="08BF6323-7520-9596-0496-F7A4162B720D">
@@ -65,11 +66,12 @@
 <generatorID>6BB5C8DF-592A-FEBB-01BE-E0F76683E38F</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<use>2</use>
+<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

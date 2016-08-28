@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_COMMENT" id="1E111B16-0420-821F-5461-8D7650FC2933">
+<Attribute name="ID COMMENT" id="1E111B16-0420-821F-5461-8D7650FC2933">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:31:22 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED_AT" id="C67DC61C-58C9-199A-FDB6-2116233F3357">
+<Attribute name="CREATED AT" id="C67DC61C-58C9-199A-FDB6-2116233F3357">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:02:09 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATED_AT" id="183FA372-C48F-BC4B-302F-8F7C128783B0">
+<Attribute name="UPDATED AT" id="183FA372-C48F-BC4B-302F-8F7C128783B0">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:02:29 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -64,7 +64,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="APPROVED_AT" id="BDEE38AB-0ECD-1009-4AF8-D215A9E6EB82">
+<Attribute name="APPROVED AT" id="BDEE38AB-0ECD-1009-4AF8-D215A9E6EB82">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:02:37 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -77,7 +77,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DELETED_AT" id="3F62A33D-0F4E-60A5-D92A-395DBEE60329">
+<Attribute name="DELETED AT" id="3F62A33D-0F4E-60A5-D92A-395DBEE60329">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:03:01 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
@@ -90,7 +90,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_POST" id="FE803719-7A86-1CAC-9498-49529EDF211A">
+<Attribute name="POST ID" id="FE803719-7A86-1CAC-9498-49529EDF211A">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:57:24 UTC</createdTime>
 <generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
@@ -104,9 +104,23 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_USER" id="351A1DBB-A992-3FC5-8330-2A35CFB2B9F6">
+<Attribute name="ID USER" id="351A1DBB-A992-3FC5-8330-2A35CFB2B9F6">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-25 01:41:25 UTC</createdTime>
+<generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER ID" id="DE928D02-F117-3B00-1427-E9A7FE240F3C">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:13:15 UTC</createdTime>
 <generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>

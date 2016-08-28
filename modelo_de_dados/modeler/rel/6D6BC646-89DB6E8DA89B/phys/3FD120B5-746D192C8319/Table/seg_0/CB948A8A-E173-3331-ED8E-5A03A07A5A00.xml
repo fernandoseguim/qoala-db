@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEVICE_LOGS" directorySegmentName="seg_0" id="CB948A8A-E173-3331-ED8E-5A03A07A5A00">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEVICE_ID" id="0BD64E69-EF89-101D-D03B-F40DD93C9A42">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_AT" id="84F0B571-F42C-33D2-6588-74490E867B91">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOG" id="F0767227-206E-C2DF-3434-E62056EA689D">
+<createdBy>gabri</createdBy>
+<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

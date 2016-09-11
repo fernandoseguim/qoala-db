@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="504D13F9-7445-3BE0-CF99-DA5F640940A8" name="DEVICE GEO LOCATIONS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6CA3612-2D81-ECF5-392F-264A21E6F486" name="ACCESSCONTROL">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>B8A301AB-F18B-8430-1A2A-B876ACD55DBB</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>EFEAA9E7-19D4-5E6C-2A52-21373F9B279B</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID DEVICE GEO LOCATION" id="836A9A03-CD41-D0BD-861D-4C3CD8C4CE1C">
+<Attribute name="TOKEN" id="68A8600F-EE53-5045-FF86-993F1450158C">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>727D9DB8-4175-791E-5DBF-60D593F314A4</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>4A2DCBAD-8E4F-8A42-866E-92050344EFC2</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -29,78 +29,77 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID DEVICE" id="71DA569E-A8DA-1CE5-29F0-7B8D14DB7CB2">
+<Attribute name="CREATED AT" id="934C19FA-F770-22F4-B7B9-F9C23F2ADBD4">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>6036FCD5-C591-F163-C729-65A934133F9B</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>F571B924-7F5A-1E8A-3FEC-869ABAAE56E8</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
-<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VERIFIED AT" id="81F6D129-4F87-F1A6-4B69-7E3AF8908F12">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>00DD8CBF-B230-5764-09B7-F13862655C69</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LATITUDE" id="BF41FDD8-62EF-2EF2-B3A5-925F7DEF068E">
+<Attribute name="EXPIRED AT" id="CEBB9006-4C1F-7893-9BC3-F8476E503E87">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>C3B276DF-EFC2-B7DC-FD05-C8F27640A61D</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>F14A01F7-C909-B13F-8FA7-84CE884C49F2</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>2</use>
-<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LONGITUDE" id="C6541812-6B08-3DE0-BB0F-2C4583C79D3E">
+<Attribute name="REMOTEIP" id="3C95AD53-7D3B-5327-66AC-F268524F8FDB">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>08BF6323-7520-9596-0496-F7A4162B720D</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<commentInRDBMS>000.000.000.000</commentInRDBMS>
+<generatorID>37D44ADA-0F7E-902B-9FF5-4AF3D1170E8A</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>2</use>
-<distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID USER" id="F2F86514-8357-8F53-59E2-DEDC81F13C5E">
+<createdBy>gabri</createdBy>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>5865894F-4DA9-6D33-A6CF-6E710EFA9EA7</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C15A3706-25EB-9E16-5BB7-9E015C27D9C7" name="DEVICE GEO LOCATION PK">
+<identifier id="DD71872C-9B4A-5CF4-FC1D-300A9BF7FB08" name="ACCESSCONTROL PK">
 <createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>3A986A17-7114-F27A-ADB4-CC7E07F4AECA</generatorID>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>9FD8CE58-1236-AD38-4F6C-C3C5D76D740F</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>836A9A03-CD41-D0BD-861D-4C3CD8C4CE1C</attributeRef>
+<attributeRef>68A8600F-EE53-5045-FF86-993F1450158C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

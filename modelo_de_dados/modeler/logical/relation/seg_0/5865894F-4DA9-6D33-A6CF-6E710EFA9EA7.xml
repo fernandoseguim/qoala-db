@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACCESSCONTROL_USERS_FK" directorySegmentName="seg_0" id="5865894F-4DA9-6D33-A6CF-6E710EFA9EA7">
+<createdBy>gabri</createdBy>
+<createdTime>2016-09-11 14:34:43 UTC</createdTime>
+<generatorID>0572B107-16B3-6799-FD19-59AC2D4F4C9D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<sourcePk>5665F9B8-BACA-31F3-BCE5-38D197632A25</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB86FEFA-0602-3F85-B2B4-06A85D050278</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6CA3612-2D81-ECF5-392F-264A21E6F486</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -5,6 +5,7 @@
 <generatorID>133F100D-2CCB-2CA6-B364-018295BA2846</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <ordsAlias>device_geo_location</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,7 +21,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEVICE_ID" id="7E9DD2D5-2635-B9A2-3B86-A720F625C647">
+<Column name="ID_DEVICE" id="7E9DD2D5-2635-B9A2-3B86-A720F625C647">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-23 23:19:59 UTC</createdTime>
 <generatorID>FA04A0B4-976B-FAB0-B8BB-A756812D398E</generatorID>

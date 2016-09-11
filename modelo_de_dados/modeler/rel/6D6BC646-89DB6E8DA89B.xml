@@ -6,9 +6,9 @@
 <shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
 <redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
-<connName>masterqoala Plur4lSoluT10ns</connName>
+<connName>qoala Q41L1@2016</connName>
 <connUrl>jdbc:oracle:thin:@plural.czuj7n11qbsw.us-west-2.rds.amazonaws.com:1521:QOALA</connUrl>
-<connUser>masterqoala</connUser>
+<connUser>qoala</connUser>
 <connType>1</connType>
 <syncSelected>-1</syncSelected>
 </redirectConnectionStamp>

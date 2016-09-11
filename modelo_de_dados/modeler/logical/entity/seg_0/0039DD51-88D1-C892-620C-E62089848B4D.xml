@@ -90,7 +90,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="POST ID" id="FE803719-7A86-1CAC-9498-49529EDF211A">
+<Attribute name="ID POST" id="FE803719-7A86-1CAC-9498-49529EDF211A">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:57:24 UTC</createdTime>
 <generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
@@ -118,7 +118,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER ID" id="DE928D02-F117-3B00-1427-E9A7FE240F3C">
+<Attribute name="ID USER2" id="DE928D02-F117-3B00-1427-E9A7FE240F3C">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-28 15:13:15 UTC</createdTime>
 <generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>

@@ -14,7 +14,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>INFCOMP</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="KEY" id="A6058B5B-C7E5-5E8F-C98A-083D76800201">
 <createdBy>rm71058</createdBy>

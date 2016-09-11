@@ -101,7 +101,6 @@
 <Attribute name="ALARM" id="B41949F8-AF1B-CB64-ABAD-A86FD9AE7B5F">
 <createdBy>rm71058</createdBy>
 <createdTime>2016-08-17 23:27:52 UTC</createdTime>
-<comment>0 - sem alarme&lt;br/&gt;1 - Ativar Alarme Sonoro</comment>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -165,7 +164,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="USER ID" id="C5A9DCEF-AB94-0E98-FAFF-45755A157792">
+<Attribute name="ID USER2" id="C5A9DCEF-AB94-0E98-FAFF-45755A157792">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-28 15:13:15 UTC</createdTime>
 <generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>

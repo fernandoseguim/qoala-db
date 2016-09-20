@@ -1,31 +1,8 @@
 clear screen
-set serveroutput on
+set serveroutput on;
 alter session set current_schema=QOALA;
 
-CREATE OR REPLACE PACKAGE pkg_post AS
-   PROCEDURE insert_post (
-     title in posts.title%TYPE, 
-     content in posts.content%TYPE, 
-     user_id in posts.user_id%TYPE,
-     out_id_post out posts.ID_POST%TYPE
-   );
-   PROCEDURE update_post (
-     id in posts.id_post%TYPE,
-     title in posts.title%TYPE, 
-     content in posts.content%TYPE, 
-     user_id in posts.user_id%TYPE,
-     rowcount out NUMBER
-   );
-   PROCEDURE publish_post (id in posts.id_post%TYPE, rowcount out NUMBER);
-   PROCEDURE delete_post (id in posts.id_post%TYPE, rowcount out NUMBER);
-END pkg_post;
-/
-show errors
-/
-
-CREATE OR REPLACE PACKAGE BODY pkg_post AS
-    --private
-    procedure sp_post_log(
+    create or replace procedure sp_post_log(
         log in post_logs.log%TYPE, 
         post_id in post_logs.post_id%TYPE)
     is
@@ -35,17 +12,20 @@ CREATE OR REPLACE PACKAGE BODY pkg_post AS
         values (log, post_id, SYSDATE);
       commit; --deve haver commit em uma transação autonoma
     end sp_post_log;
+/
+show errors
+/
     
-    procedure insert_post(
+    create or replace procedure insert_post(
         title in posts.title%TYPE, 
         content in posts.content%TYPE, 
-        user_id in posts.user_id%TYPE, 
+        id_user in posts.id_user%TYPE, 
         out_id_post out posts.ID_POST%TYPE)
     is 
     begin
       begin
-        insert into posts(id_post, title, content, created_at, updated_at, user_id) 
-          values(seq_posts.nextval, title, content, SYSDATE, null, user_id)
+        insert into posts(id_post, title, content, created_at, updated_at, id_user) 
+          values(seq_posts.nextval, title, content, SYSDATE, null, id_user)
           returning ID_POST into out_id_post;
           sp_post_log('insert_post: OK! ' || title, out_id_post);
       exception when others then
@@ -53,29 +33,35 @@ CREATE OR REPLACE PACKAGE BODY pkg_post AS
       end;
         
     end insert_post;
-    
-    procedure update_post(
-        id in posts.id_post%TYPE, 
-        title in posts.title%TYPE, 
-        content in posts.content%TYPE, 
-        user_id in posts.user_id%TYPE,
+/
+show errors
+/     
+    create or replace procedure update_post(
+        pid in posts.id_post%TYPE, 
+        ptitle in posts.title%TYPE, 
+        pcontent in posts.content%TYPE, 
+        pid_user in posts.id_user%TYPE,
         rowcount out NUMBER)
     is 
     begin
       begin
         update posts
-          set title = title, content = content, updated_at = SYSDATE, user_id = user_id 
-          where id_post = id;
+          set title = ptitle, content = pcontent, updated_at = SYSDATE, id_user= pid_user
+          where id_post = pid;
         rowcount := sql%ROWCOUNT;
         if rowcount > 0 then
-          sp_post_log('Post updated', id);
+          sp_post_log('Post updated' || ptitle || pcontent || pid_user, pid);
         end if;
       exception when others then
-        sp_post_log('update_post error: ' || sqlerrm, id);  
+        sp_post_log('update_post error: ' || sqlerrm, pid);  
       end;
     end update_post;
+/
+show errors
+/
 
-    procedure delete_post(id in posts.id_post%TYPE, rowcount out NUMBER)
+
+    create or replace procedure delete_post(id in posts.id_post%TYPE, rowcount out NUMBER)
     is 
     begin
       begin
@@ -88,8 +74,11 @@ CREATE OR REPLACE PACKAGE BODY pkg_post AS
         sp_post_log('delete_post error: ' || sqlerrm, id);  
       end;
     end delete_post;
-     
-    procedure publish_post(id in posts.id_post%TYPE, rowcount out NUMBER)
+/
+show errors
+/
+
+    create or replace procedure publish_post(id in posts.id_post%TYPE, rowcount out NUMBER)
     is
     begin
        begin
@@ -101,9 +90,7 @@ CREATE OR REPLACE PACKAGE BODY pkg_post AS
       exception when others then
         sp_post_log('publish_post error: ' || sqlerrm, id);  
       end;
-    end publish_post;
-    
-END pkg_post;
+    end publish_post;    
 /
 show errors
 /

@@ -2,107 +2,90 @@ clear screen
 set serveroutput on
 alter session set current_schema=QOALA;
 
-CREATE OR REPLACE PACKAGE pkg_comment AS
-   PROCEDURE insert_comment (
-     content in comments.content%TYPE, 
-     user_id in comments.user_id%TYPE,
-     post_id in comments.post_id%TYPE,
-     out_id_comment out comments.ID_comment%TYPE
-   );
-   PROCEDURE update_comment(
-     id in comments.id_comment%TYPE,
-     content in comments.content%TYPE, 
-     user_id in comments.user_id%TYPE,
-     post_id in comments.post_id%TYPE,
-     rowcount out NUMBER
-   );
-   PROCEDURE approve_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
-   PROCEDURE delete_comment (id in comments.id_comment%TYPE, rowcount out NUMBER);
-END pkg_comment;
+create or replace procedure sp_comment_log(
+    plog in comment_logs.log%TYPE, 
+    pcomment_id in comment_logs.comments_id%TYPE)
+is
+  pragma autonomous_transaction;
+begin
+  insert into comment_logs(log, comments_id, created_at) 
+    values (plog, pcomment_id, SYSDATE);
+  commit; --deve haver commit em uma transação autonoma
+end sp_comment_log;
+/
+show errors
+/   
+create or replace procedure sp_insert_comment(
+    pcontent in comments.content%TYPE, 
+    pid_user in comments.id_user%TYPE, 
+    pid_post in comments.id_post%TYPE, 
+    out_id_comment out comments.ID_comment%TYPE)
+is 
+begin
+  begin
+    insert into comments(id_comment, content, created_at, id_user, id_post) 
+      values(seq_comments.nextval, pcontent, SYSDATE, pid_user, pid_post)
+      returning ID_COMMENT into out_id_comment;
+      sp_comment_log('insert_comment: OK! ' || pcontent, out_id_comment);
+  exception when others then
+    sp_comment_log('insert_comment error: ' || sqlerrm, out_id_comment);
+  end;
+end sp_insert_comment;
+/
+show errors
+/   
+create or replace procedure sp_update_comment(
+    pid in comments.id_comment%TYPE, 
+    pcontent in comments.content%TYPE, 
+    pid_user in comments.id_user%TYPE, 
+    pid_post in comments.id_post%TYPE,
+    rowcount out NUMBER)
+is 
+begin
+  begin
+    update comments 
+      set content = pcontent, id_post = pid_post, updated_at = SYSDATE, id_user = pid_user
+      where id_comment = pid;
+    rowcount := sql%ROWCOUNT;
+    if rowcount > 0 then
+      sp_comment_log('Comment updated ' || pcontent || pid_post || pid_user, pid);
+    end if;
+  exception when others then
+    sp_comment_log('update_comment error: ' || sqlerrm, pid);  
+  end;
+end sp_update_comment;
 /
 show errors
 /
-
-CREATE OR REPLACE PACKAGE BODY pkg_comment AS 
-   --private
-    procedure sp_comment_log(
-        log in comment_logs.log%TYPE, 
-        comment_id in comment_logs.comments_id%TYPE)
-    is
-      pragma autonomous_transaction;
-    begin
-      insert into comment_logs(log, comments_id, created_at) 
-        values (log, comment_id, SYSDATE);
-      commit; --deve haver commit em uma transação autonoma
-    end sp_comment_log;
-    
-    procedure insert_comment(
-        content in comments.content%TYPE, 
-        user_id in comments.user_id%TYPE, 
-        post_id in comments.post_id%TYPE, 
-        out_id_comment out comments.ID_comment%TYPE)
-    is 
-    begin
-      begin
-        insert into comments(id_comment, content, created_at, user_id, post_id) 
-          values(seq_comments.nextval, content, SYSDATE, user_id, post_id)
-          returning ID_COMMENT into out_id_comment;
-          sp_comment_log('insert_comment: OK! ' || content, out_id_comment);
-      exception when others then
-        sp_comment_log('insert_comment error: ' || sqlerrm, out_id_comment);
-      end;
-    end insert_comment;
-    
-    procedure update_comment(
-        id in comments.id_comment%TYPE, 
-        content in comments.content%TYPE, 
-        user_id in comments.user_id%TYPE, 
-        post_id in comments.post_id%TYPE,
-        rowcount out NUMBER)
-    is 
-    begin
-      begin
-        update comments 
-          set content = content, post_id = post_id, updated_at = SYSDATE, user_id = user_id 
-          where id_comment = id;
-        rowcount := sql%ROWCOUNT;
-        if rowcount > 0 then
-          sp_comment_log('Comment updated', id);
-        end if;
-      exception when others then
-        sp_comment_log('update_comment error: ' || sqlerrm, id);  
-      end;
-    end update_comment;
-
-    procedure delete_comment(id in comments.id_comment%TYPE, rowcount out NUMBER)
-    is 
-    begin
-      begin
-        update comments set deleted_at = SYSDATE where id_comment = id;
-        rowcount := sql%ROWCOUNT;
-        if rowcount > 0 then
-          sp_comment_log('Comment deleted', id);
-        end if;
-      exception when others then
-        sp_comment_log('delete_comment error: ' || sqlerrm, id);  
-      end;
-    end delete_comment;
-     
-    procedure approve_comment(id in comments.id_comment%TYPE, rowcount out NUMBER)
-    is
-    begin
-       begin
-        update comments set approved_at = SYSDATE where id_comment = id;
-        rowcount := sql%ROWCOUNT;
-        if rowcount > 0 then
-          sp_comment_log('Comment Approved', id);
-        end if;
-      exception when others then
-        sp_comment_log('approve_comment error: ' || sqlerrm, id);  
-      end;
-    end approve_comment;
-    
-END pkg_comment;
+create or replace procedure sp_delete_comment(pid in comments.id_comment%TYPE, rowcount out NUMBER)
+is 
+begin
+  begin
+    update comments set deleted_at = SYSDATE where id_comment = pid;
+    rowcount := sql%ROWCOUNT;
+    if rowcount > 0 then
+      sp_comment_log('Comment deleted', pid);
+    end if;
+  exception when others then
+    sp_comment_log('delete_comment error: ' || sqlerrm, pid);  
+  end;
+end sp_delete_comment;
+/
+show errors
+/     
+create or replace procedure sp_approve_comment(pid in comments.id_comment%TYPE, rowcount out NUMBER)
+is
+begin
+   begin
+    update comments set approved_at = SYSDATE where id_comment = pid;
+    rowcount := sql%ROWCOUNT;
+    if rowcount > 0 then
+      sp_comment_log('Comment Approved', pid);
+    end if;
+  exception when others then
+    sp_comment_log('approve_comment error: ' || sqlerrm, pid);  
+  end;
+end sp_approve_comment;
 /
 show errors
 /

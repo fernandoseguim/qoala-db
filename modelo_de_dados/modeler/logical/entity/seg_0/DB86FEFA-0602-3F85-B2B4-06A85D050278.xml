@@ -83,14 +83,14 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
+<dataTypePrecision>2</dataTypePrecision>
 <listOfValues>
 <valueDef value="1" description="PUBLIC"/>
 <valueDef value="2" description="EDITOR"/>
 <valueDef value="3" description="ADMIN"/>
 </listOfValues>
 <defaultValue>1</defaultValue>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CREATED AT" id="904B852F-D4BE-7624-5035-CE4017B6B7C1">
 <createdBy>rm71058</createdBy>
@@ -143,6 +143,81 @@
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="42E5901D-A6E6-83ED-DC71-3048CD0046FC">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:13:58 UTC</createdTime>
+<generatorID>97A9C291-E105-C8BC-9F14-80C8F7123298</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISTRICT" id="F3C08621-F9B4-64AA-B89A-241B61168EE3">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:13:58 UTC</createdTime>
+<generatorID>2C71E50D-CC1D-96C4-B1E3-BA29C0539A2A</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="425DA069-E2AA-F4DD-5084-6776B4F5763B">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:13:58 UTC</createdTime>
+<generatorID>C9104127-FFDC-B39F-0177-C26F8D6A3214</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="4880C09C-A2E2-0B6F-113A-CEC66C22159B">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:13:58 UTC</createdTime>
+<generatorID>853BB2BF-AF7C-E8E8-715D-9A19D085045D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIPCODE" id="91BF9BB6-2E41-05A8-6E0E-85F4F08012E5">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:13:58 UTC</createdTime>
+<generatorID>AE1E20C2-5A30-9CF9-72E5-B92992C6646C</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

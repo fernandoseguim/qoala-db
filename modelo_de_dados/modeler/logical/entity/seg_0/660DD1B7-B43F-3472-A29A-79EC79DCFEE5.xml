@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0039DD51-88D1-C892-620C-E62089848B4D" name="COMMENTS">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:01:18 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="660DD1B7-B43F-3472-A29A-79EC79DCFEE5" name="POSTS">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>837E4699-F74D-4702-47E8-4010CD90B288</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID COMMENT" id="1E111B16-0420-821F-5461-8D7650FC2933">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:31:22 UTC</createdTime>
+<Attribute name="ID POST" id="3F3D19CE-7E36-CD94-95B9-F2EAFB3F11E0">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>32995F7D-8EED-84BF-BF40-2A0A95579FA6</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -27,9 +29,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CONTENT" id="FEBC9235-3BF7-1725-9CD1-1811BB589B06">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:01:32 UTC</createdTime>
+<Attribute name="TITLE" id="3D9C3CE0-7E1A-3743-2F70-246153261771">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>1E8060FC-6E40-DD3D-D403-12A69E6D1607</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTENT" id="E0D974F6-EED1-EC81-2033-DEC277C377A7">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>1CC3E03C-64B9-A526-D7F3-CFA4D6C1B823</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -39,9 +56,10 @@
 <logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED AT" id="C67DC61C-58C9-199A-FDB6-2116233F3357">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:02:09 UTC</createdTime>
+<Attribute name="CREATED AT" id="B8DCA948-1838-30D0-5E54-B25E9783FE6E">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>5EF62F91-50A2-746B-1AC2-2CBF42012EAF</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -51,9 +69,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="UPDATED AT" id="183FA372-C48F-BC4B-302F-8F7C128783B0">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:02:29 UTC</createdTime>
+<Attribute name="UPDATED AT" id="5D65C9C5-8B94-D81A-9454-EDEA3D08D250">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>EF661CB2-6F80-6DBF-1EEC-E65A33EA44D2</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -64,9 +83,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="APPROVED AT" id="BDEE38AB-0ECD-1009-4AF8-D215A9E6EB82">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:02:37 UTC</createdTime>
+<Attribute name="PUBLISHED AT" id="4C7F09A0-C309-C101-D0FB-87BA83E6B8F4">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>4E50F1F8-C28C-4881-5D1B-203FB8702CA5</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -77,9 +97,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DELETED AT" id="3F62A33D-0F4E-60A5-D92A-395DBEE60329">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:03:01 UTC</createdTime>
+<Attribute name="DELETED AT" id="6BA71BBB-C70A-50DD-7A98-B9CFE07725A6">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>FAC1A919-23B7-C30F-F445-08B95B9307E3</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -90,38 +111,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID POST" id="FE803719-7A86-1CAC-9498-49529EDF211A">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:57:24 UTC</createdTime>
-<generatorID>353506CA-B248-FC0D-A903-EE738A27F413</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>C1AC0BCE-D8A0-7DF4-A666-1F85F6F68633</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID USER" id="351A1DBB-A992-3FC5-8330-2A35CFB2B9F6">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-25 01:41:25 UTC</createdTime>
-<generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID USER2" id="DE928D02-F117-3B00-1427-E9A7FE240F3C">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>284CB381-329F-3F6B-3B05-41293BCD7C20</generatorID>
+<Attribute name="ID USER" id="5C1B1970-554A-8B01-7CBB-816AC63AB00A">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>2EDD96A6-DBA9-6E60-4285-8369831777CB</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -134,16 +127,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DCADF9A6-6452-6622-2B59-B0F178CB5965" name="COMMENTS PK">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:31:28 UTC</createdTime>
+<identifier id="37107750-8163-1D8F-A197-63EB8ECA38FA" name="POST PK">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:15:22 UTC</createdTime>
+<generatorID>EBF6F971-412E-E88C-CD11-C09E9D02B371</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1E111B16-0420-821F-5461-8D7650FC2933</attributeRef>
+<attributeRef>3F3D19CE-7E36-CD94-95B9-F2EAFB3F11E0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

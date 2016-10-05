@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="USER_LOGS" directorySegmentName="seg_0" id="EC122956-A97E-F405-2F6D-7118BF569A16">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -10,18 +10,18 @@
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="USER_ID" id="2BB146B9-8CA1-8A74-60EE-9E4620CD93AD">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_AT" id="678072D0-FE77-950E-B5B4-CFBE119E7C56">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LOG" id="980000B3-BA7A-5DC3-4EA0-BF4AE8A239EC">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 </columnProxies>

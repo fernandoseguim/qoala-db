@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCESSCONTROL" directorySegmentName="seg_0" id="EFEAA9E7-19D4-5E6C-2A52-21373F9B279B">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:21:04 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -9,43 +9,43 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="IPEXTERNO" id="37D44ADA-0F7E-902B-9FF5-4AF3D1170E8A">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:26:00 UTC</createdTime>
+<ColumnProxy name="REMOTEIP" id="37D44ADA-0F7E-902B-9FF5-4AF3D1170E8A">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="TOKEN" id="4A2DCBAD-8E4F-8A42-866E-92050344EFC2">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:24:10 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ID_USER" id="D2CCB386-7849-138E-437F-48FFD3E52A23">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:27:43 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="EXPIRED_AT" id="F14A01F7-C909-B13F-8FA7-84CE884C49F2">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:24:10 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_AT" id="F571B924-7F5A-1E8A-3FEC-869ABAAE56E8">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:24:10 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ACCESSCONTROL_USERS_FK" id="B43DFD69-F4CC-2533-A30F-82DB3650AFC2">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:27:43 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCESSCONTROL_PK" id="9FD8CE58-1236-AD38-4F6C-C3C5D76D740F">
-<createdBy>gabri</createdBy>
-<createdTime>2016-09-11 14:24:10 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

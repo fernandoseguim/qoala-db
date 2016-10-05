@@ -29,20 +29,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID DEVICE" id="71DA569E-A8DA-1CE5-29F0-7B8D14DB7CB2">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>6036FCD5-C591-F163-C729-65A934133F9B</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>D299BAFA-3302-146D-FDD1-83E9AE89C377</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="VERIFIED AT" id="81F6D129-4F87-F1A6-4B69-7E3AF8908F12">
 <createdBy>gabri</createdBy>
 <createdTime>2016-08-28 15:13:15 UTC</createdTime>
@@ -87,6 +73,20 @@
 <dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
 <ownDataTypeParameters>,9,7</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID DEVICE" id="DA991B9A-EB77-85EF-3EAE-540CC1B97B60">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>A4D612C4-9904-DFF5-4EF0-2A6FC26DB696</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<referedAttribute>54E38A8A-B5C3-91B6-DB59-3BFE2E39A5EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

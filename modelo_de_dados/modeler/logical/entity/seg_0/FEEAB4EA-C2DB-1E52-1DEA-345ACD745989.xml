@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4459A014-4FAB-CF00-5833-D1D4FEC07984" name="DEVICES">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 22:24:24 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEEAB4EA-C2DB-1E52-1DEA-345ACD745989" name="DEVICES">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>9497538E-42CC-EBC0-C700-3655D6BBB9A4</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID DEVICE" id="D299BAFA-3302-146D-FDD1-83E9AE89C377">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 22:24:35 UTC</createdTime>
+<Attribute name="ID DEVICE" id="54E38A8A-B5C3-91B6-DB59-3BFE2E39A5EB">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>932B323E-310A-EFC3-191A-D46BAF74A13C</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -27,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ALIAS" id="B969E7F5-8266-ADF3-73C2-3D9F93D03D49">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 22:25:10 UTC</createdTime>
+<Attribute name="ALIAS" id="6F57C82C-164B-060B-FD94-C78118912866">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>F2A96AFB-023F-7FBF-DD29-0CB8BEE4876B</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -40,9 +43,10 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COLOR" id="3CCD5270-A8B6-6654-793C-875BC62866D3">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:27:27 UTC</createdTime>
+<Attribute name="COLOR" id="F574CF1E-7D23-3F92-5620-1536FBA28EF8">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>32C12288-448E-36A0-8EB8-C7B535475941</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -54,9 +58,10 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="FREQUENCY UPDATE" id="8473E217-E086-8421-FD6A-DD6C48C47D71">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:27:30 UTC</createdTime>
+<Attribute name="FREQUENCY UPDATE" id="6F65853F-EA35-CCFA-6B20-5FA7DA8F26B0">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>55BC88E1-CB00-AA4A-791F-110EA4CC65AB</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -66,9 +71,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST LONGITUDE" id="DA9BF7B1-773D-CBFB-36A2-51005261301F">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:27:41 UTC</createdTime>
+<Attribute name="LAST LONGITUDE" id="01BB8AAB-8A11-DA4F-D46E-870855347E78">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>DEF53685-5078-6461-CD27-9D910430E20F</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -77,14 +83,15 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>2</use>
 <distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LAST LATITUDE" id="4068C144-3AC3-B4B9-068C-BAB13BD75E92">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:27:46 UTC</createdTime>
+<Attribute name="LAST LATITUDE" id="54316730-AA1E-0E40-DECB-61D4B83AF386">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>0EDD2D80-92AC-59A2-44E2-0E942BAE2503</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -93,14 +100,15 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>2</use>
 <distinctType>365E10D8-AAB7-43B2-CC28-AFAC0A0CD4D4</distinctType>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <dataTypeScale>7</dataTypeScale>
-<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ALARM" id="B41949F8-AF1B-CB64-ABAD-A86FD9AE7B5F">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:27:52 UTC</createdTime>
+<Attribute name="ALARM" id="73A6AADA-0740-E422-E4D5-BD1FD9536725">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>F1A095FE-4139-1AEA-9EF1-878CF06F94A6</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -112,35 +120,10 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CREATED AT" id="18B56532-BFE3-EDF5-1687-A824F8F5F5E2">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:44:58 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="UPDATED AT" id="A1162402-248F-331F-F300-CC38D865A983">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-18 19:45:08 UTC</createdTime>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID USER" id="D6DD9D42-3F18-DB49-112A-592C21F1F644">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-25 01:41:25 UTC</createdTime>
-<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
+<Attribute name="ID USER" id="A86E5C08-A73F-4C96-FF7B-0B0DF7603856">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>DE07F81A-489E-DDCA-490B-D06BF55D2A14</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -151,9 +134,23 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DELETED_AT" id="E33866A2-9327-7319-691D-6727D4AD975D">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-24 21:13:39 UTC</createdTime>
+<Attribute name="CREATED AT" id="30A0ED8A-9442-83E2-1C7A-41C79383C6B7">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>6EE5DD74-EA80-390A-88AC-5B0E0948DD8F</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UPDATED AT" id="6C3355D7-C0C3-11E6-072E-C8CEBCA4288C">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>9F9C4F25-B0D6-18FB-84F8-200E997F1C25</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -164,23 +161,9 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID USER2" id="C5A9DCEF-AB94-0E98-FAFF-45755A157792">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
-<generatorID>871BC53D-73D6-26F8-5371-EB42BB2A67FD</generatorID>
-<ownerDesignName>modeler</ownerDesignName>
-<engineerTo>
-<item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
-</engineerTo>
-<referedAttribute>B9AED4AB-0E97-3ED5-77BE-56EA6C92F034</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DELETED AT" id="D1552A77-449D-DCE7-4711-F3B5FFC085AF">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<Attribute name="DELETED AT" id="E3A94C15-59F9-2EC6-21F2-0DEF0DF657A3">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
 <generatorID>DF4C07D8-85CD-8910-4D8B-024123406DC0</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
@@ -194,16 +177,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="76225908-3730-DBA0-8CBC-D7C3FF570093" name="DEVICE_PK">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 22:24:59 UTC</createdTime>
+<identifier id="9056C606-07A3-1CBD-756C-2562CC063BF6" name="DEVICE PK">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
+<generatorID>AF684F9E-C945-BD9A-CF9A-ED61DFB0A7CB</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D299BAFA-3302-146D-FDD1-83E9AE89C377</attributeRef>
+<attributeRef>54E38A8A-B5C3-91B6-DB59-3BFE2E39A5EB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

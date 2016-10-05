@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEVICE_GEO_LOCATION_DEVICE_FK" directorySegmentName="seg_0" id="6036FCD5-C591-F163-C729-65A934133F9B">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:13:15 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DEVICE_GEO_LOCATION_DEVICE_FK" directorySegmentName="seg_0" id="A4D612C4-9904-DFF5-4EF0-2A6FC26DB696">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:30 UTC</createdTime>
 <generatorID>E710FF0F-E9D7-ADE4-C320-42E1AF653230</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
 </engineerTo>
-<sourcePk>76225908-3730-DBA0-8CBC-D7C3FF570093</sourcePk>
+<sourcePk>9056C606-07A3-1CBD-756C-2562CC063BF6</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4459A014-4FAB-CF00-5833-D1D4FEC07984</sourceEntity>
+<sourceEntity>FEEAB4EA-C2DB-1E52-1DEA-345ACD745989</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>504D13F9-7445-3BE0-CF99-DA5F640940A8</targetEntity>
 <transferable>true</transferable>

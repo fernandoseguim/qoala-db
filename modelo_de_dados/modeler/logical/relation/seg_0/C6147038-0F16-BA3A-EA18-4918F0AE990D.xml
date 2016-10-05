@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMMENTS USER FK" directorySegmentName="seg_0" id="284CB381-329F-3F6B-3B05-41293BCD7C20">
-<createdBy>rm71058</createdBy>
-<createdTime>2016-08-17 23:57:57 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMMENTS_USER_FK" directorySegmentName="seg_0" id="C6147038-0F16-BA3A-EA18-4918F0AE990D">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:11:43 UTC</createdTime>
+<generatorID>911F1C1A-64C4-6F4B-5050-EA5B11885FC1</generatorID>
 <ownerDesignName>modeler</ownerDesignName>
 <engineerTo>
 <item key="6D6BC646-F95F-D373-5800-89DB6E8DA89B" value="true"/>
@@ -13,7 +14,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>DB86FEFA-0602-3F85-B2B4-06A85D050278</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>0039DD51-88D1-C892-620C-E62089848B4D</targetEntity>
+<targetEntity>485D99C1-F1AD-9CF6-9E69-D61956B4392F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

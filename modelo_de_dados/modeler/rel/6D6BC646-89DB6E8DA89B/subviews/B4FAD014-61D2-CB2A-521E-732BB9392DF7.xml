@@ -20,7 +20,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6E1421B2-3842-496A-4886-19488272B957" otype="Table" vid="E0807B55-35C7-83E1-9113-B5E3E7910EC1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="590" y="290" width="255" height="194"/>
+<bounds x="590" y="260" width="255" height="261"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="837E4699-F74D-4702-47E8-4010CD90B288" otype="Table" vid="86A1943D-50A4-51EE-0B5B-C7BEFDFC0166">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -40,7 +40,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B8A301AB-F18B-8430-1A2A-B876ACD55DBB" otype="Table" vid="4657A092-DFDB-11E5-FE19-9F2C2E221267">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="590" y="520" width="343" height="164"/>
+<bounds x="590" y="530" width="343" height="151"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BA1AB49A-29C4-B656-3806-E22C85C770B5" otype="Table" vid="CC858A6A-833A-3B3C-9E13-860C26A8B067">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -68,16 +68,16 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="845" y="355"/>
-<point x="900" y="355"/>
+<point x="845" y="365"/>
+<point x="900" y="365"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="3D80FEDA-1150-F448-0903-246FA6044DA6" otype="FKIndexAssociation" vid_source="E0807B55-35C7-83E1-9113-B5E3E7910EC1" vid_target="BD4F9A0C-726D-3D48-3F74-1B6044D466E9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="590" y="388"/>
-<point x="537" y="388"/>
+<point x="590" y="407"/>
+<point x="537" y="407"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="845A65D2-EDFF-E50D-31A8-30F7BD9E506F" otype="FKIndexAssociation" vid_source="86A1943D-50A4-51EE-0B5B-C7BEFDFC0166" vid_target="A37D39A2-0108-4DE7-7E7A-20CF939D7759">
@@ -92,7 +92,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="730" y="290"/>
+<point x="730" y="260"/>
 <point x="730" y="200"/>
 <point x="669" y="200"/>
 </points>
@@ -101,7 +101,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="822" y="290"/>
+<point x="822" y="260"/>
 <point x="822" y="212"/>
 </points>
 </Connector>

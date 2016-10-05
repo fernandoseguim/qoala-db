@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEVICES" directorySegmentName="seg_0" id="9497538E-42CC-EBC0-C700-3655D6BBB9A4">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -10,72 +10,72 @@
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="LAST_LATITUDE" id="0EDD2D80-92AC-59A2-44E2-0E942BAE2503">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="COLOR" id="32C12288-448E-36A0-8EB8-C7B535475941">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="FREQUENCY_UPDATE" id="55BC88E1-CB00-AA4A-791F-110EA4CC65AB">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_AT" id="6EE5DD74-EA80-390A-88AC-5B0E0948DD8F">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ID_DEVICE" id="932B323E-310A-EFC3-191A-D46BAF74A13C">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="UPDATED_AT" id="9F9C4F25-B0D6-18FB-84F8-200E997F1C25">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="USER_ID" id="B1FEC0D7-AED4-2B2B-0B21-C34071E93A80">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ColumnProxy name="ID_USER" id="B1FEC0D7-AED4-2B2B-0B21-C34071E93A80">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="LAST_LONGITUDE" id="DEF53685-5078-6461-CD27-9D910430E20F">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="DELETED_AT" id="DF4C07D8-85CD-8910-4D8B-024123406DC0">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ALARM" id="F1A095FE-4139-1AEA-9EF1-878CF06F94A6">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="ALIAS" id="F2A96AFB-023F-7FBF-DD29-0CB8BEE4876B">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEVICES_USER_FK" id="77035C33-92EC-B7AB-ED59-E16A641F7D7B">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVICE_PK" id="AF684F9E-C945-BD9A-CF9A-ED61DFB0A7CB">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

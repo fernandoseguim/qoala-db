@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMMENTS" directorySegmentName="seg_0" id="4F7F8413-A9AC-499B-10E1-0954F674105F">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -10,62 +10,62 @@
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="ID_COMMENT" id="29DE7ECB-36BD-F797-CA0C-8ACD85C21CCA">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="USER_ID" id="2B6FDCB7-6A48-591F-F365-37861A81A40F">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ColumnProxy name="ID_USER" id="2B6FDCB7-6A48-591F-F365-37861A81A40F">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="APPROVED_AT" id="AAE114DD-25B4-4933-F534-97B59DCE2A95">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="POST_ID" id="B45E32B4-2D27-8EE8-7CA8-AB99FC0A8AD5">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<ColumnProxy name="ID_POST" id="B45E32B4-2D27-8EE8-7CA8-AB99FC0A8AD5">
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CONTENT" id="CA787A17-BDE1-D285-0DD1-B71E2C3220B5">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="CREATED_AT" id="D293D95F-6C61-6C2E-C0D1-8285445BD698">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="UPDATED_AT" id="DA2DEF93-C428-45A3-4185-7549CEADE8AE">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="DELETED_AT" id="ED2C152A-FA0C-7489-12C5-14D08565F65C">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMMENTS_USER_FK" id="107CEA9E-3778-1AE4-5BB9-55C4E4727127">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ForeignKey>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMMENTS_POST_FK" id="58F4C846-F462-5ABE-AEE0-7C7E68D3D4A8">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMMENTS_PK" id="F280205E-320C-0656-540A-CC78D102D421">
-<createdBy>gabri</createdBy>
-<createdTime>2016-08-28 15:43:27 UTC</createdTime>
+<createdBy>FernandoSeguim</createdBy>
+<createdTime>2016-10-05 19:49:49 UTC</createdTime>
 <ownerDesignName>modeler</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

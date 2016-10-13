@@ -36,3 +36,27 @@ CREATE SEQUENCE seq_device_geo_locations
  INCREMENT BY   1
  NOCACHE
  NOCYCLE;
+
+drop sequence seq_plans;
+CREATE SEQUENCE seq_plans
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;
+/
+
+drop sequence seq_sponsors;
+CREATE SEQUENCE seq_sponsors
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;
+/
+
+drop sequence seq_rewards;
+CREATE SEQUENCE seq_rewards
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;
+/
